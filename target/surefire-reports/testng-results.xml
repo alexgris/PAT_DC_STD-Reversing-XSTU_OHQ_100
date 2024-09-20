@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-30T12:21:55 CEST" name="TestNG_Suite1" finished-at="2023-05-30T12:26:07 CEST" duration-ms="251780">
+    <groups>
+    </groups>
+    <test started-at="2023-05-30T12:21:55 CEST" name="Item Category - XSTU" finished-at="2023-05-30T12:26:07 CEST" duration-ms="251780">
+      <class name="org.project.Test_Cases">
+        <test-method is-config="true" signature="preTestSettinngs()[pri:0, instance:org.project.Test_Cases@c86b9e3]" started-at="2023-05-30T12:21:55 CEST" name="preTestSettinngs" finished-at="2023-05-30T12:21:55 CEST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preTestSettinngs -->
+        <test-method is-config="true" signature="preTestConfigurations()[pri:0, instance:org.project.Test_Cases@c86b9e3]" started-at="2023-05-30T12:21:55 CEST" name="preTestConfigurations" finished-at="2023-05-30T12:21:55 CEST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preTestConfigurations -->
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:org.project.Test_Cases@c86b9e3]" started-at="2023-05-30T12:21:55 CEST" name="setUp" finished-at="2023-05-30T12:21:57 CEST" duration-ms="2186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DC_CSN_Profile]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="openDataCollationPage_Testing(java.lang.String, java.lang.String)[pri:0, instance:org.project.Test_Cases@c86b9e3]" started-at="2023-05-30T12:21:57 CEST" name="openDataCollationPage_Testing" finished-at="2023-05-30T12:23:02 CEST" duration-ms="64913" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[OHQ_100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[STN]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDataCollationPage_Testing -->
+        <test-method signature="add_NewItemRow_Testing()[pri:0, instance:org.project.Test_Cases@c86b9e3]" started-at="2023-05-30T12:23:02 CEST" name="add_NewItemRow_Testing" finished-at="2023-05-30T12:23:04 CEST" depends-on-methods="org.project.Test_Cases.openDataCollationPage_Testing" duration-ms="1429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_NewItemRow_Testing -->
+        <test-method signature="fill_in_NewItemFields_Testing()[pri:0, instance:org.project.Test_Cases@c86b9e3]" started-at="2023-05-30T12:23:04 CEST" name="fill_in_NewItemFields_Testing" finished-at="2023-05-30T12:23:04 CEST" depends-on-methods="org.project.Test_Cases.add_NewItemRow_Testing" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fill_in_NewItemFields_Testing -->
+        <test-method signature="fill_in_ItemCategory_Testing(java.lang.String)[pri:0, instance:org.project.Test_Cases@c86b9e3]" started-at="2023-05-30T12:23:04 CEST" name="fill_in_ItemCategory_Testing" finished-at="2023-05-30T12:23:17 CEST" depends-on-methods="org.project.Test_Cases.fill_in_NewItemFields_Testing" duration-ms="13648" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STN]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fill_in_ItemCategory_Testing -->
+        <test-method signature="fill_in_RightPartOfTable_Testing(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.project.Test_Cases@c86b9e3]" started-at="2023-05-30T12:23:17 CEST" name="fill_in_RightPartOfTable_Testing" finished-at="2023-05-30T12:23:42 CEST" depends-on-methods="org.project.Test_Cases.fill_in_ItemCategory_Testing" duration-ms="24168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GP02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[GPU]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[GPUR]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[G2L1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[OGSD_200]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[GP01]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[G1L1]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[UNTAX]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[99]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Gasoil]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[L15]]>
+              </value>
+            </param>
+            <param index="12">
+              <value is-null="true"/>
+            </param>
+            <param index="13">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fill_in_RightPartOfTable_Testing -->
+        <test-method signature="finalize_ProcessingOfSalesOrder_Testing()[pri:0, instance:org.project.Test_Cases@c86b9e3]" started-at="2023-05-30T12:23:42 CEST" name="finalize_ProcessingOfSalesOrder_Testing" finished-at="2023-05-30T12:23:54 CEST" depends-on-methods="org.project.Test_Cases.fill_in_RightPartOfTable_Testing" duration-ms="12895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalize_ProcessingOfSalesOrder_Testing -->
+        <test-method signature="postprocessing_ComparePostedAndCancelledSalesOrder_Testing()[pri:0, instance:org.project.Test_Cases@c86b9e3]" started-at="2023-05-30T12:23:54 CEST" name="postprocessing_ComparePostedAndCancelledSalesOrder_Testing" finished-at="2023-05-30T12:24:30 CEST" depends-on-methods="org.project.Test_Cases.finalize_ProcessingOfSalesOrder_Testing" duration-ms="35126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postprocessing_ComparePostedAndCancelledSalesOrder_Testing -->
+        <test-method signature="postprocessing_Read_StockTransportOrderNumber_Testing()[pri:0, instance:org.project.Test_Cases@c86b9e3]" started-at="2023-05-30T12:24:30 CEST" name="postprocessing_Read_StockTransportOrderNumber_Testing" finished-at="2023-05-30T12:24:33 CEST" depends-on-methods="org.project.Test_Cases.postprocessing_ComparePostedAndCancelledSalesOrder_Testing" duration-ms="3332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postprocessing_Read_StockTransportOrderNumber_Testing -->
+        <test-method signature="add_NewItemRowForNewDocument_Testing(java.lang.String)[pri:0, instance:org.project.Test_Cases@c86b9e3]" started-at="2023-05-30T12:24:33 CEST" name="add_NewItemRowForNewDocument_Testing" finished-at="2023-05-30T12:24:35 CEST" depends-on-methods="org.project.Test_Cases.postprocessing_Read_StockTransportOrderNumber_Testing" duration-ms="1741" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STU]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_NewItemRowForNewDocument_Testing -->
+        <test-method signature="fill_in_NewItemFieldsForNewDocument_Testing()[pri:0, instance:org.project.Test_Cases@c86b9e3]" started-at="2023-05-30T12:24:35 CEST" name="fill_in_NewItemFieldsForNewDocument_Testing" finished-at="2023-05-30T12:24:37 CEST" depends-on-methods="org.project.Test_Cases.add_NewItemRowForNewDocument_Testing" duration-ms="2118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fill_in_NewItemFieldsForNewDocument_Testing -->
+        <test-method signature="fill_in_ItemCategoryForNewDocument_Testing()[pri:0, instance:org.project.Test_Cases@c86b9e3]" started-at="2023-05-30T12:24:37 CEST" name="fill_in_ItemCategoryForNewDocument_Testing" finished-at="2023-05-30T12:24:50 CEST" depends-on-methods="org.project.Test_Cases.fill_in_NewItemFieldsForNewDocument_Testing" duration-ms="13568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fill_in_ItemCategoryForNewDocument_Testing -->
+        <test-method signature="fill_in_RightPartOfTableForOtherDocument_Testing(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.project.Test_Cases@c86b9e3]" started-at="2023-05-30T12:24:50 CEST" name="fill_in_RightPartOfTableForOtherDocument_Testing" finished-at="2023-05-30T12:24:54 CEST" depends-on-methods="org.project.Test_Cases.fill_in_ItemCategoryForNewDocument_Testing" duration-ms="3940" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[OGSD_200]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[GP01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[G1L1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[UNTAX]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[99]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Gasoil]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[L15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fill_in_RightPartOfTableForOtherDocument_Testing -->
+        <test-method signature="finalize_ProcessingOfSalesOrderForOtherDocument_Testing()[pri:0, instance:org.project.Test_Cases@c86b9e3]" started-at="2023-05-30T12:24:54 CEST" name="finalize_ProcessingOfSalesOrderForOtherDocument_Testing" finished-at="2023-05-30T12:25:05 CEST" depends-on-methods="org.project.Test_Cases.fill_in_RightPartOfTableForOtherDocument_Testing" duration-ms="10545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalize_ProcessingOfSalesOrderForOtherDocument_Testing -->
+        <test-method signature="postprocessing_ComparePostedAndCancelledSalesOrderForOtherDocument_Testing()[pri:0, instance:org.project.Test_Cases@c86b9e3]" started-at="2023-05-30T12:25:05 CEST" name="postprocessing_ComparePostedAndCancelledSalesOrderForOtherDocument_Testing" finished-at="2023-05-30T12:25:24 CEST" depends-on-methods="org.project.Test_Cases.finalize_ProcessingOfSalesOrderForOtherDocument_Testing" duration-ms="18986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postprocessing_ComparePostedAndCancelledSalesOrderForOtherDocument_Testing -->
+        <test-method signature="postprocessing_ReverseSalesOrder_Testing(java.lang.String)[pri:0, instance:org.project.Test_Cases@c86b9e3]" started-at="2023-05-30T12:25:24 CEST" name="postprocessing_ReverseSalesOrder_Testing" finished-at="2023-05-30T12:25:31 CEST" depends-on-methods="org.project.Test_Cases.postprocessing_ComparePostedAndCancelledSalesOrderForOtherDocument_Testing" duration-ms="6937" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[XSTU]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postprocessing_ReverseSalesOrder_Testing -->
+        <test-method signature="postprocessing_RePostingCancelledSalesOrder_Testing()[pri:0, instance:org.project.Test_Cases@c86b9e3]" started-at="2023-05-30T12:25:31 CEST" name="postprocessing_RePostingCancelledSalesOrder_Testing" finished-at="2023-05-30T12:26:06 CEST" depends-on-methods="org.project.Test_Cases.postprocessing_ReverseSalesOrder_Testing" duration-ms="35735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postprocessing_RePostingCancelledSalesOrder_Testing -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:org.project.Test_Cases@c86b9e3]" started-at="2023-05-30T12:26:06 CEST" name="cleanUp" finished-at="2023-05-30T12:26:07 CEST" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="insertLinksIntoLogFile(java.lang.String)[pri:0, instance:org.project.Test_Cases@c86b9e3]" started-at="2023-05-30T12:26:07 CEST" name="insertLinksIntoLogFile" finished-at="2023-05-30T12:26:07 CEST" duration-ms="336" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ohq]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertLinksIntoLogFile -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.project.Test_Cases@c86b9e3]" started-at="2023-05-30T12:26:07 CEST" name="tearDown" finished-at="2023-05-30T12:26:07 CEST" duration-ms="296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.project.Test_Cases -->
+    </test> <!-- Item Category - XSTU -->
+  </suite> <!-- TestNG_Suite1 -->
+</testng-results>

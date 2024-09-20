@@ -1,0 +1,577 @@
+2023-12-28 13:08:27 INFO  Waitings:334 - TOTAL TIME that the LOGIN or LANDING page was loading: 0.161 seconds.
+2023-12-28 13:08:37 INFO  LandingPage:2898 - The application was detected to have loaded WITH 'LOGIN' page.no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains (text(), 'Standard Data Collation')]"}
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ACSWDF004563', ip: '10.76.102.49', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=120.0.6099.71 (9729082fe6174c0a371fc66501f5efc5d69d3d2b-refs/branch-heads/6099_56@{#13}), userDataDir=C:\Users\c5282596\AppData\Local\Temp\scoped_dir1320_1532073278}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), webauthn:extension:minPinLength=true, goog:chromeOptions={debuggerAddress=localhost:50948}, webauthn:extension:credBlob=true, webauthn:extension:prf=true, acceptInsecureCerts=true, browserVersion=120.0.6099.130, fedcm:accounts=true, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: bd2a480f46fea2e98c3c2af1168b07e7
+*** Element info: {Using=xpath, value=//*[contains (text(), 'Standard Data Collation')]}
+2023-12-28 13:08:37 INFO  LandingPage:2927 - USERNAME was SUCCESSFULLY entered!
+2023-12-28 13:08:37 INFO  LandingPage:2937 - PASSWORD was SUCCESSFULLY entered!
+2023-12-28 13:08:39 INFO  LandingPage:2947 - LOG ON button was SUCCESSFULLY clicked!
+2023-12-28 13:08:39 INFO  Waitings:334 - TOTAL TIME that the After LOGON  page was loading: 0.096 seconds.
+2023-12-28 13:08:41 INFO  Waitings:119 - TOTAL TIME that the ENTIRE of DATA COLLATION PAGE page was loading: 1.066 seconds.
+2023-12-28 13:08:43 INFO  LandingPage:3000 - Document Number and Document Status fields are empty as expected.
+2023-12-28 13:08:43 INFO  LandingPage:3031 - HEADER DATA panel is open by default.
+2023-12-28 13:08:43 INFO  LandingPage:3059 - ITEM DATA panel is open by default.
+2023-12-28 13:08:43 INFO  LandingPage:3074 - PERSONOLIZED button on DATA COLLATION page was clicked.
+2023-12-28 13:08:43 INFO  Waitings:269 - TOTAL TIME that 'RESET TO DEFAULT DATA COLLATION PAGE' menu item page was loading: 0.028 seconds.
+2023-12-28 13:08:44 INFO  LandingPage:2872 - SET TO DEFAULT menu item was SUCCESSFULLY clicked on.
+2023-12-28 13:08:45 INFO  Waitings:119 - TOTAL TIME that the DATA COLLATION PAGE after clicking on 'SET TO DEFAULT' menu item on PERSONALIZATION dropdown page was loading: 1.078 seconds.
+2023-12-28 13:08:46 INFO  LandingPage:2841 - 'PERSONALIZATION' button on 'ITEM DATA' table was clicked SUCCESSFULLY.
+2023-12-28 13:08:47 INFO  Waitings:119 - TOTAL TIME that the PERSONALIZATION POPUP page was loading: 1.046 seconds.
+2023-12-28 13:08:49 INFO  Waitings:269 - TOTAL TIME that 'RESTORE' button -> SETTINGS' Popup page was loading: 0.028 seconds.
+2023-12-28 13:08:50 INFO  Waitings:269 - TOTAL TIME that 'MAXIMIZE' button -> SETTINGS' Popup page was loading: 0.023 seconds.
+2023-12-28 13:08:51 INFO  LandingPage:2700 - The height of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup is: 374
+2023-12-28 13:08:51 INFO  LandingPage:2708 - The height of the vertical scroller in 'ADD ITEM -> SETTINGS' Popup is: 206
+2023-12-28 13:08:51 INFO  LandingPage:2713 - The movable space for the vertical scroller in 'ADD ITEM -> SETTINGS' Popup is: 168
+2023-12-28 13:08:51 INFO  LandingPage:2718 - The offset for moving 1 row is: 12
+2023-12-28 13:08:51 INFO  LandingPage:2731 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 248
+2023-12-28 13:08:51 INFO  LandingPage:2743 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 262
+2023-12-28 13:08:51 INFO  LandingPage:2731 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 262
+2023-12-28 13:08:52 INFO  LandingPage:2743 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 274
+2023-12-28 13:08:52 INFO  LandingPage:2731 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 274
+2023-12-28 13:08:52 INFO  LandingPage:2743 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 289
+2023-12-28 13:08:52 INFO  LandingPage:2731 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 289
+2023-12-28 13:08:53 INFO  LandingPage:2743 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 304
+2023-12-28 13:08:53 INFO  LandingPage:2731 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 304
+2023-12-28 13:08:53 INFO  LandingPage:2743 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 315
+2023-12-28 13:08:53 INFO  LandingPage:2731 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 315
+2023-12-28 13:08:53 INFO  LandingPage:2743 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 330
+2023-12-28 13:08:53 INFO  LandingPage:2731 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 330
+2023-12-28 13:08:54 INFO  LandingPage:2743 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 345
+2023-12-28 13:08:54 INFO  LandingPage:2731 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 345
+2023-12-28 13:08:54 INFO  LandingPage:2743 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 360
+2023-12-28 13:08:54 INFO  LandingPage:2731 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 360
+2023-12-28 13:08:55 INFO  LandingPage:2743 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 371
+2023-12-28 13:08:55 INFO  LandingPage:2731 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 371
+2023-12-28 13:08:55 INFO  LandingPage:2743 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 386
+2023-12-28 13:08:55 INFO  LandingPage:2731 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 386
+2023-12-28 13:08:56 INFO  LandingPage:2743 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 401
+2023-12-28 13:08:56 INFO  LandingPage:2731 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 401
+2023-12-28 13:08:56 INFO  LandingPage:2743 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 416
+2023-12-28 13:08:56 INFO  LandingPage:2731 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 416
+2023-12-28 13:08:56 INFO  LandingPage:2743 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 416
+2023-12-28 13:08:56 INFO  Waitings:269 - TOTAL TIME that Last row in the 'ADD ITEM -> SETTINGS' Popup page was loading: 0.026 seconds.
+2023-12-28 13:08:58 INFO  LandingPage:2759 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 416
+2023-12-28 13:08:58 INFO  LandingPage:2772 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 401
+2023-12-28 13:08:58 INFO  LandingPage:2759 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 401
+2023-12-28 13:08:58 INFO  LandingPage:2772 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 386
+2023-12-28 13:08:58 INFO  LandingPage:2759 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 386
+2023-12-28 13:08:59 INFO  LandingPage:2772 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 371
+2023-12-28 13:08:59 INFO  LandingPage:2759 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 371
+2023-12-28 13:08:59 INFO  LandingPage:2772 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 360
+2023-12-28 13:08:59 INFO  LandingPage:2759 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 360
+2023-12-28 13:09:00 INFO  LandingPage:2772 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 345
+2023-12-28 13:09:00 INFO  LandingPage:2759 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 345
+2023-12-28 13:09:00 INFO  LandingPage:2772 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 330
+2023-12-28 13:09:00 INFO  LandingPage:2759 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 330
+2023-12-28 13:09:01 INFO  LandingPage:2772 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 315
+2023-12-28 13:09:01 INFO  LandingPage:2759 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 315
+2023-12-28 13:09:01 INFO  LandingPage:2772 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 304
+2023-12-28 13:09:01 INFO  LandingPage:2759 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 304
+2023-12-28 13:09:01 INFO  LandingPage:2772 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 289
+2023-12-28 13:09:01 INFO  LandingPage:2759 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 289
+2023-12-28 13:09:02 INFO  LandingPage:2772 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 274
+2023-12-28 13:09:02 INFO  LandingPage:2759 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 274
+2023-12-28 13:09:02 INFO  LandingPage:2772 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 262
+2023-12-28 13:09:02 INFO  LandingPage:2759 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 262
+2023-12-28 13:09:03 INFO  LandingPage:2772 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 248
+2023-12-28 13:09:03 INFO  LandingPage:2759 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 248
+2023-12-28 13:09:03 INFO  LandingPage:2772 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 248
+2023-12-28 13:09:03 INFO  Waitings:269 - TOTAL TIME that 'Item Status' row in the 'ADD ITEM -> SETTINGS' Popup page was loading: 0.026 seconds.
+2023-12-28 13:09:05 INFO  LandingPage:2788 - The offset for moving 1 row is: 12
+2023-12-28 13:09:05 INFO  LandingPage:1431 - The 'Item Status' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-12-28 13:09:05 INFO  Waitings:240 - TOTAL TIME that 'Item Status' WIDTH field page was loading: 0.032 seconds.
+2023-12-28 13:09:06 INFO  LandingPage:1442 - Width for ITEM STATUS input field was SUCCESSFULLY changed.
+2023-12-28 13:09:06 INFO  LandingPage:1455 - ITEM STATUS input field was selected in the FIXED column BY DEFAULT.
+2023-12-28 13:09:06 INFO  LandingPage:1473 - The 'Transfer Posting' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-12-28 13:09:06 INFO  Waitings:240 - TOTAL TIME that 'Transfer Posting' WIDTH field page was loading: 0.02 seconds.
+2023-12-28 13:09:07 INFO  LandingPage:1484 - Width for TRANSFER POSTING input field was SUCCESSFULLY changed.
+2023-12-28 13:09:07 INFO  LandingPage:1498 - TRANSFER POSTING input field was selected in the FIXED column BY DEFAULT.
+2023-12-28 13:09:07 INFO  LandingPage:1516 - The 'Item Number' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-12-28 13:09:07 INFO  Waitings:240 - TOTAL TIME that 'Item Number' WIDTH field page was loading: 0.015 seconds.
+2023-12-28 13:09:07 INFO  LandingPage:1527 - Width for ITEM NUMBER input field was SUCCESSFULLY changed.
+2023-12-28 13:09:08 INFO  LandingPage:1541 - ITEM NUMBER input field was selected in the FIXED column BY DEFAULT.
+2023-12-28 13:09:08 INFO  LandingPage:1560 - The 'Sequence Number of the Item' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-12-28 13:09:08 INFO  Waitings:240 - TOTAL TIME that 'Sequence Number of the Item' WIDTH field page was loading: 0.016 seconds.
+2023-12-28 13:09:09 INFO  LandingPage:1571 - Width for SEQUENCE NUMBER OF THE ITEM input field was SUCCESSFULLY changed.
+2023-12-28 13:09:09 INFO  LandingPage:1585 - SEQUENCE NUMBER OF THE ITEM input field was selected in the FIXED column BY DEFAULT.
+2023-12-28 13:09:09 INFO  LandingPage:1603 - The 'Posting Sequence' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-12-28 13:09:09 INFO  Waitings:240 - TOTAL TIME that 'Posting Sequence' WIDTH field page was loading: 0.014 seconds.
+2023-12-28 13:09:10 INFO  LandingPage:1614 - Width for POSTING SEQUENCE input field was SUCCESSFULLY changed.
+2023-12-28 13:09:10 INFO  LandingPage:1628 - POSTING SEQUENCE input field was selected in the FIXED column BY DEFAULT.
+2023-12-28 13:09:10 INFO  LandingPage:1647 - The 'Item Category' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-12-28 13:09:10 INFO  Waitings:240 - TOTAL TIME that 'Item Category' WIDTH field page was loading: 0.016 seconds.
+2023-12-28 13:09:11 INFO  LandingPage:1658 - Width for ITEM CATEGORY input field was SUCCESSFULLY changed.
+2023-12-28 13:09:11 INFO  LandingPage:1672 - ITEM CATEGORY input field was selected in the FIXED column BY DEFAULT.
+2023-12-28 13:09:11 INFO  LandingPage:1690 - The 'Reference Document' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-12-28 13:09:11 INFO  Waitings:240 - TOTAL TIME that 'Reference Document' WIDTH field page was loading: 0.014 seconds.
+2023-12-28 13:09:12 INFO  LandingPage:1701 - Width for REFERENCE DOCUMENT input field was SUCCESSFULLY changed.
+2023-12-28 13:09:12 INFO  LandingPage:1715 - REFERENCE DOCUMENT input field was unselected in the FIXED column BY DEFAULT.
+2023-12-28 13:09:12 INFO  LandingPage:1734 - The 'Reference Item' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-12-28 13:09:13 INFO  Waitings:240 - TOTAL TIME that 'Reference Item' WIDTH field page was loading: 0.015 seconds.
+2023-12-28 13:09:13 INFO  LandingPage:1745 - Width for REFERENCE ITEM input field was SUCCESSFULLY changed.
+2023-12-28 13:09:13 INFO  LandingPage:1759 - REFERENCE ITEM input field was unselected in the FIXED column BY DEFAULT.
+2023-12-28 13:09:14 INFO  LandingPage:1778 - The 'Material' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-12-28 13:09:14 INFO  Waitings:240 - TOTAL TIME that 'Material' WIDTH field page was loading: 0.016 seconds.
+2023-12-28 13:09:14 INFO  LandingPage:1789 - Width for MATERIAL input field was SUCCESSFULLY changed.
+2023-12-28 13:09:14 INFO  LandingPage:1803 - MATERIAL ITEM input field was unselected in the FIXED column BY DEFAULT.
+2023-12-28 13:09:15 INFO  LandingPage:1821 - The 'Material description' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-12-28 13:09:15 INFO  Waitings:240 - TOTAL TIME that 'Material description' WIDTH field page was loading: 0.014 seconds.
+2023-12-28 13:09:15 INFO  LandingPage:1832 - Width for MATERIAL DESCRIPTION input field was SUCCESSFULLY changed.
+2023-12-28 13:09:15 INFO  LandingPage:1846 - MATERIAL DESCRIPTION input field was unselected in the FIXED column BY DEFAULT.
+2023-12-28 13:09:16 INFO  LandingPage:1864 - The 'Quantity' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-12-28 13:09:16 INFO  Waitings:240 - TOTAL TIME that 'Quantity' WIDTH field page was loading: 0.014 seconds.
+2023-12-28 13:09:16 INFO  LandingPage:1875 - Width for QUANTITY input field was SUCCESSFULLY changed.
+2023-12-28 13:09:16 INFO  LandingPage:1889 - QUANTITY input field was unselected in the FIXED column BY DEFAULT.
+2023-12-28 13:09:17 INFO  LandingPage:1908 - The 'Base Unit of Measure' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-12-28 13:09:17 INFO  Waitings:240 - TOTAL TIME that 'Base Unit of Measure' WIDTH field page was loading: 0.015 seconds.
+2023-12-28 13:09:17 INFO  LandingPage:1919 - Width for BASE UNIT OF MEASURE input field was SUCCESSFULLY changed.
+2023-12-28 13:09:17 INFO  LandingPage:1933 - BASE UNIT OF MEASURE input field was unselected in the FIXED column BY DEFAULT.
+2023-12-28 13:09:18 INFO  LandingPage:1951 - The 'Plant' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-12-28 13:09:18 INFO  Waitings:240 - TOTAL TIME that 'Plant' WIDTH field page was loading: 0.015 seconds.
+2023-12-28 13:09:18 INFO  LandingPage:1962 - Width for PLANT input field was SUCCESSFULLY changed.
+2023-12-28 13:09:18 INFO  LandingPage:1976 - PLANT input field was unselected in the FIXED column BY DEFAULT.
+2023-12-28 13:09:19 INFO  LandingPage:1993 - The 'Storage location' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-12-28 13:09:19 INFO  Waitings:240 - TOTAL TIME that 'Storage location' WIDTH field page was loading: 0.016 seconds.
+2023-12-28 13:09:19 INFO  LandingPage:2004 - Width for STORAGE LOCATION input field was SUCCESSFULLY changed.
+2023-12-28 13:09:19 INFO  LandingPage:2018 - STORAGE LOCATION input field was unselected in the FIXED column BY DEFAULT.
+2023-12-28 13:09:20 INFO  LandingPage:2036 - The 'Valuation Type' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-12-28 13:09:20 INFO  Waitings:240 - TOTAL TIME that 'Valuation Type' WIDTH field page was loading: 0.015 seconds.
+2023-12-28 13:09:20 INFO  LandingPage:2047 - Width for VALUATION TYPE input field was SUCCESSFULLY changed.
+2023-12-28 13:09:20 INFO  LandingPage:2061 - VALUATION TYPE input field was unselected in the FIXED column BY DEFAULT.
+2023-12-28 13:09:21 INFO  LandingPage:2079 - The 'Handling Type' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-12-28 13:09:21 INFO  Waitings:240 - TOTAL TIME that 'Handling Type' WIDTH field page was loading: 0.021 seconds.
+2023-12-28 13:09:21 INFO  LandingPage:2090 - Width for HANDLING TYPE input field was SUCCESSFULLY changed.
+2023-12-28 13:09:21 INFO  LandingPage:2104 - HANDLING TYPE input field was unselected in the FIXED column BY DEFAULT.
+2023-12-28 13:09:22 INFO  LandingPage:2122 - The 'Posting Date' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-12-28 13:09:22 INFO  Waitings:240 - TOTAL TIME that 'Posting Date' WIDTH field page was loading: 0.015 seconds.
+2023-12-28 13:09:22 INFO  LandingPage:2133 - Width for POSTING DATE input field was SUCCESSFULLY changed.
+2023-12-28 13:09:22 INFO  LandingPage:2147 - POSTING DATE input field was unselected in the FIXED column BY DEFAULT.
+2023-12-28 13:09:23 INFO  LandingPage:2165 - The 'Tank number' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-12-28 13:09:23 INFO  Waitings:240 - TOTAL TIME that 'Tank number' WIDTH field page was loading: 0.016 seconds.
+2023-12-28 13:09:23 INFO  LandingPage:2176 - Width for TANK NUMBER input field was SUCCESSFULLY changed.
+2023-12-28 13:09:23 INFO  LandingPage:2189 - TANK NUMBER input field was unselected in the FIXED column BY DEFAULT.
+2023-12-28 13:09:24 INFO  LandingPage:2207 - The 'Partner Function' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-12-28 13:09:24 INFO  Waitings:240 - TOTAL TIME that 'Partner Function' WIDTH field page was loading: 0.015 seconds.
+2023-12-28 13:09:24 INFO  LandingPage:2218 - Width for PARTNER FUNCTION input field was SUCCESSFULLY changed.
+2023-12-28 13:09:24 INFO  LandingPage:2232 - PARTNER FUNCTION input field was unselected in the FIXED column BY DEFAULT.
+2023-12-28 13:09:25 INFO  LandingPage:2250 - The 'Partners' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-12-28 13:09:25 INFO  Waitings:240 - TOTAL TIME that 'Partners' WIDTH field page was loading: 0.014 seconds.
+2023-12-28 13:09:25 INFO  LandingPage:2262 - Width for PARTNERS input field was SUCCESSFULLY changed.
+2023-12-28 13:09:25 INFO  LandingPage:2276 - PARTNERS input field was unselected in the FIXED column BY DEFAULT.
+2023-12-28 13:09:26 INFO  LandingPage:2294 - The 'Net Price' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-12-28 13:09:26 INFO  Waitings:240 - TOTAL TIME that 'Net Price' WIDTH field page was loading: 0.015 seconds.
+2023-12-28 13:09:26 INFO  LandingPage:2305 - Width for NET PRICE input field was SUCCESSFULLY changed.
+2023-12-28 13:09:27 INFO  LandingPage:2319 - NET PRICE input field was unselected in the FIXED column BY DEFAULT.
+2023-12-28 13:09:27 INFO  LandingPage:2337 - The 'Currency' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-12-28 13:09:27 INFO  Waitings:240 - TOTAL TIME that 'Currency' WIDTH field page was loading: 0.016 seconds.
+2023-12-28 13:09:27 INFO  LandingPage:2348 - Width for CURRENCY input field was SUCCESSFULLY changed.
+2023-12-28 13:09:28 INFO  LandingPage:2362 - CURRENCY input field was unselected in the FIXED column BY DEFAULT.
+2023-12-28 13:09:28 INFO  LandingPage:2380 - The 'Pricing Unit' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-12-28 13:09:28 INFO  Waitings:240 - TOTAL TIME that 'Pricing Unit' WIDTH field page was loading: 0.016 seconds.
+2023-12-28 13:09:29 INFO  LandingPage:2391 - Width for PRICING UNIT input field was SUCCESSFULLY changed.
+2023-12-28 13:09:29 INFO  LandingPage:2405 - PRICING UNIT input field was unselected in the FIXED column BY DEFAULT.
+2023-12-28 13:09:29 INFO  LandingPage:2423 - The 'Unit of Measure' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-12-28 13:09:29 INFO  Waitings:240 - TOTAL TIME that 'Unit of Measure' WIDTH field page was loading: 0.016 seconds.
+2023-12-28 13:09:30 INFO  LandingPage:2434 - Width for UNIT OF MEASURE input field was SUCCESSFULLY changed.
+2023-12-28 13:09:30 INFO  LandingPage:2448 - UNIT OF MEASURE input field was unselected in the FIXED column BY DEFAULT.
+2023-12-28 13:09:30 INFO  LandingPage:2466 - The 'Quantity in Percent' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-12-28 13:09:30 INFO  Waitings:240 - TOTAL TIME that 'Quantity in Percent' WIDTH field page was loading: 0.015 seconds.
+2023-12-28 13:09:31 INFO  LandingPage:2477 - Width for QUANTITY IN PERCENT input field was SUCCESSFULLY changed.
+2023-12-28 13:09:31 INFO  LandingPage:2491 - QUANTITY IN PERCENT input field was unselected in the FIXED column BY DEFAULT.
+2023-12-28 13:09:31 INFO  LandingPage:2509 - The 'Stock' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-12-28 13:09:31 INFO  Waitings:240 - TOTAL TIME that 'Stock' WIDTH field page was loading: 0.015 seconds.
+2023-12-28 13:09:32 INFO  LandingPage:2520 - Width for STOCK input field was SUCCESSFULLY changed.
+2023-12-28 13:09:32 INFO  LandingPage:2534 - STOCK input field was unselected in the FIXED column BY DEFAULT.
+2023-12-28 13:09:32 INFO  LandingPage:2552 - The 'UoM for Quantity from Dipping' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-12-28 13:09:32 INFO  Waitings:240 - TOTAL TIME that 'UoM for Quantity from Dipping' WIDTH field page was loading: 0.015 seconds.
+2023-12-28 13:09:33 INFO  LandingPage:2563 - Width for UOM FOR QUANTITY FROM DIPPING input field was SUCCESSFULLY changed.
+2023-12-28 13:09:33 INFO  LandingPage:2577 - UOM FOR QUANTITY FROM DIPPING input field was unselected in the FIXED column BY DEFAULT.
+2023-12-28 13:09:33 INFO  LandingPage:1397 - The 'OK' button (on 'PERSONALIZATION' popup) was clicked to save Default Settings.
+2023-12-28 13:09:34 INFO  Waitings:119 - TOTAL TIME that the DATA COLLATION PAGE after closing PERSONALIZATION popup page was loading: 1.083 seconds.
+2023-12-28 13:09:36 INFO  Graphics_Screenshots:48 - EMPTY DATA COLLATION PAGE window screenshot was made. 
+2023-12-28 13:09:36 WARN  LandingPage:1362 - The 'Add Item' table is EMPTY.
+2023-12-28 13:09:36 INFO  LandingPage:1313 - Button 'NEW' is in ENABLED status.
+2023-12-28 13:09:36 INFO  LandingPage:1289 - 'NEW' button was clicked on the main toolbar.
+2023-12-28 13:09:37 INFO  Waitings:269 - TOTAL TIME that Editable HEADER DATA Table page was loading: 0.561 seconds.
+2023-12-28 13:09:37 WARN  LandingPage:1315 - Button 'NEW' is in DISABLED status.
+2023-12-28 13:09:37 INFO  LandingPage:1267 - Button 'ADD ITEM' is in ENABLED status.
+2023-12-28 13:09:37 WARN  LandingPage:1362 - The 'Add Item' table is EMPTY.
+2023-12-28 13:09:37 INFO  Test_Cases:203 - 'ADD ITEM' button was clicked because the 'ITEM DATA' table has NO editable rows yet.
+2023-12-28 13:09:37 INFO  AddItemTable:3218 - Browser window height is 875 pixels
+2023-12-28 13:09:37 INFO  AddItemTable:3230 - ADD ITEM Table width is 1849 pixels
+2023-12-28 13:09:37 INFO  AddItemTable:3238 - MATERIAL element's Position from left side is: 886 pixels.
+2023-12-28 13:09:37 INFO  AddItemTable:3242 - MATERIAL element's Position from top is: 365 pixels.
+2023-12-28 13:09:37 INFO  AddItemTable:3246 - MATERIAL element width is 62 pixels
+2023-12-28 13:09:37 INFO  AddItemTable:3250 - MATERIAL element height Is 32 pixels
+2023-12-28 13:09:37 INFO  AddItemTable:3254 - MATERIAL end coordinate of Web element on X axis is: 948
+2023-12-28 13:09:37 INFO  AddItemTable:3258 - MATERIAL end coordinate of Web element on Y axis is: 397
+2023-12-28 13:09:37 INFO  AddItemTable:3317 - Material Element is completelly visible in the view port.
+2023-12-28 13:09:37 INFO  Waitings:240 - TOTAL TIME that Editable first row of ADD ITEM Table - 'LEFT part' page was loading: 0.293 seconds.
+2023-12-28 13:09:38 INFO  Waitings:240 - TOTAL TIME that Editable first row of ADD ITEM Table - 'RIGHT part' page was loading: 0.044 seconds.
+2023-12-28 13:09:38 INFO  LandingPage:1195 - Document Status field is in 'A' status as expected.
+2023-12-28 13:09:49 INFO  Waitings:477 - TOTAL TIME that the RIGHT PART of ADD ITEM TABLE was observed for changing its status: 1.097 seconds.
+2023-12-28 13:09:51 INFO  AddItemTable:2668 - The lenght of the horizontal scroll bar in the right part of the 'ADD ITEM' table is: 1187
+2023-12-28 13:09:51 INFO  AddItemTable:2676 - The X-position of the vertical scroller in 'ADD ITEM' table is: 663
+2023-12-28 13:09:51 INFO  AddItemTable:2681 - The length of the horizontal scroller in 'ADD ITEM' table is: 751
+2023-12-28 13:09:51 INFO  AddItemTable:2686 - The movable space for the horizontal scroller in 'ADD ITEM' table is: 436
+2023-12-28 13:09:52 INFO  Waitings:269 - TOTAL TIME that Right-most column is reached in the 'ADD ITEM' table page was loading: 0.055 seconds.
+2023-12-28 13:09:55 INFO  AddItemTable:3218 - Browser window height is 875 pixels
+2023-12-28 13:09:55 INFO  AddItemTable:3230 - ADD ITEM Table width is 1849 pixels
+2023-12-28 13:09:55 INFO  AddItemTable:3238 - MATERIAL element's Position from left side is: 886 pixels.
+2023-12-28 13:09:55 INFO  AddItemTable:3242 - MATERIAL element's Position from top is: 365 pixels.
+2023-12-28 13:09:55 INFO  AddItemTable:3246 - MATERIAL element width is 62 pixels
+2023-12-28 13:09:55 INFO  AddItemTable:3250 - MATERIAL element height Is 32 pixels
+2023-12-28 13:09:55 INFO  AddItemTable:3254 - MATERIAL end coordinate of Web element on X axis is: 948
+2023-12-28 13:09:55 INFO  AddItemTable:3258 - MATERIAL end coordinate of Web element on Y axis is: 397
+2023-12-28 13:09:55 INFO  AddItemTable:3317 - Material Element is completelly visible in the view port.
+2023-12-28 13:09:55 INFO  Waitings:477 - TOTAL TIME that the Enabled MATERIAL field was observed for changing its status: 0.027 seconds.
+2023-12-28 13:09:56 INFO  AddItemTable:2798 - MATERIAL input field is SUCCESSFULLY filled in.
+2023-12-28 13:09:56 INFO  AddItemTable:3218 - Browser window height is 875 pixels
+2023-12-28 13:09:56 INFO  AddItemTable:3230 - ADD ITEM Table width is 1849 pixels
+2023-12-28 13:09:56 INFO  AddItemTable:3238 - QUANTITY element's Position from left side is: 1076 pixels.
+2023-12-28 13:09:56 INFO  AddItemTable:3242 - QUANTITY element's Position from top is: 333 pixels.
+2023-12-28 13:09:56 INFO  AddItemTable:3246 - QUANTITY element width is 72 pixels
+2023-12-28 13:09:56 INFO  AddItemTable:3250 - QUANTITY element height Is 32 pixels
+2023-12-28 13:09:56 INFO  AddItemTable:3254 - QUANTITY end coordinate of Web element on X axis is: 1148
+2023-12-28 13:09:56 INFO  AddItemTable:3258 - QUANTITY end coordinate of Web element on Y axis is: 365
+2023-12-28 13:09:56 INFO  AddItemTable:3317 - Quantity Element is completelly visible in the view port.
+2023-12-28 13:09:56 INFO  Waitings:477 - TOTAL TIME that the Enabled QUANTITY field was observed for changing its status: 0.025 seconds.
+2023-12-28 13:09:56 INFO  AddItemTable:3218 - Browser window height is 875 pixels
+2023-12-28 13:09:56 INFO  AddItemTable:3230 - ADD ITEM Table width is 1849 pixels
+2023-12-28 13:09:56 INFO  AddItemTable:3238 - QUANTITY element's Position from left side is: 1076 pixels.
+2023-12-28 13:09:56 INFO  AddItemTable:3242 - QUANTITY element's Position from top is: 333 pixels.
+2023-12-28 13:09:56 INFO  AddItemTable:3246 - QUANTITY element width is 72 pixels
+2023-12-28 13:09:56 INFO  AddItemTable:3250 - QUANTITY element height Is 32 pixels
+2023-12-28 13:09:56 INFO  AddItemTable:3254 - QUANTITY end coordinate of Web element on X axis is: 1148
+2023-12-28 13:09:56 INFO  AddItemTable:3258 - QUANTITY end coordinate of Web element on Y axis is: 365
+2023-12-28 13:09:56 INFO  AddItemTable:3317 - Quantity Element is completelly visible in the view port.
+2023-12-28 13:09:56 INFO  AddItemTable:2836 - QUANTITY input field is SUCCESSFULLY filled in.
+2023-12-28 13:09:56 INFO  AddItemTable:3218 - Browser window height is 875 pixels
+2023-12-28 13:09:56 INFO  AddItemTable:3230 - ADD ITEM Table width is 1849 pixels
+2023-12-28 13:09:56 INFO  AddItemTable:3238 - PLANT element's Position from left side is: 1278 pixels.
+2023-12-28 13:09:56 INFO  AddItemTable:3242 - PLANT element's Position from top is: 333 pixels.
+2023-12-28 13:09:57 INFO  AddItemTable:3246 - PLANT element width is 60 pixels
+2023-12-28 13:09:57 INFO  AddItemTable:3250 - PLANT element height Is 32 pixels
+2023-12-28 13:09:57 INFO  AddItemTable:3254 - PLANT end coordinate of Web element on X axis is: 1338
+2023-12-28 13:09:57 INFO  AddItemTable:3258 - PLANT end coordinate of Web element on Y axis is: 365
+2023-12-28 13:09:57 INFO  AddItemTable:3317 - Plant Element is completelly visible in the view port.
+2023-12-28 13:09:57 INFO  Waitings:477 - TOTAL TIME that the Enabled PLANT field was observed for changing its status: 0.028 seconds.
+2023-12-28 13:09:57 INFO  AddItemTable:2875 - PLANT input field is SUCCESSFULLY filled in.
+2023-12-28 13:09:57 INFO  AddItemTable:3218 - Browser window height is 875 pixels
+2023-12-28 13:09:57 INFO  AddItemTable:3230 - ADD ITEM Table width is 1849 pixels
+2023-12-28 13:09:57 INFO  AddItemTable:3238 - STORAGE LOCATION element's Position from left side is: 1340 pixels.
+2023-12-28 13:09:57 INFO  AddItemTable:3242 - STORAGE LOCATION element's Position from top is: 333 pixels.
+2023-12-28 13:09:57 INFO  AddItemTable:3246 - STORAGE LOCATION element width is 104 pixels
+2023-12-28 13:09:57 INFO  AddItemTable:3250 - STORAGE LOCATION element height Is 32 pixels
+2023-12-28 13:09:57 INFO  AddItemTable:3254 - STORAGE LOCATION end coordinate of Web element on X axis is: 1444
+2023-12-28 13:09:57 INFO  AddItemTable:3258 - STORAGE LOCATION end coordinate of Web element on Y axis is: 365
+2023-12-28 13:09:57 INFO  AddItemTable:3317 - Storage location Element is completelly visible in the view port.
+2023-12-28 13:09:57 INFO  Waitings:477 - TOTAL TIME that the Enabled STORAGE LOCATION field was observed for changing its status: 0.027 seconds.
+2023-12-28 13:09:57 INFO  AddItemTable:2913 - STORAGE LOCATION input field is SUCCESSFULLY filled in.
+2023-12-28 13:09:57 INFO  AddItemTable:3218 - Browser window height is 875 pixels
+2023-12-28 13:09:57 INFO  AddItemTable:3230 - ADD ITEM Table width is 1849 pixels
+2023-12-28 13:09:57 INFO  AddItemTable:3238 - VALUATION TYPE element's Position from left side is: 1446 pixels.
+2023-12-28 13:09:57 INFO  AddItemTable:3242 - VALUATION TYPE element's Position from top is: 333 pixels.
+2023-12-28 13:09:57 INFO  AddItemTable:3246 - VALUATION TYPE element width is 93 pixels
+2023-12-28 13:09:57 INFO  AddItemTable:3250 - VALUATION TYPE element height Is 32 pixels
+2023-12-28 13:09:57 INFO  AddItemTable:3254 - VALUATION TYPE end coordinate of Web element on X axis is: 1539
+2023-12-28 13:09:57 INFO  AddItemTable:3258 - VALUATION TYPE end coordinate of Web element on Y axis is: 365
+2023-12-28 13:09:57 INFO  AddItemTable:3317 - Valuation Type Element is completelly visible in the view port.
+2023-12-28 13:09:57 INFO  Waitings:477 - TOTAL TIME that the Enabled VALUATION TYPE field was observed for changing its status: 0.027 seconds.
+2023-12-28 13:09:58 INFO  AddItemTable:2951 - VALUATION TYPE input field is SUCCESSFULLY filled in.
+2023-12-28 13:09:58 INFO  AddItemTable:3218 - Browser window height is 875 pixels
+2023-12-28 13:09:58 INFO  AddItemTable:3230 - ADD ITEM Table width is 1849 pixels
+2023-12-28 13:09:58 INFO  AddItemTable:3238 - HANDLING TYPE element's Position from left side is: 1541 pixels.
+2023-12-28 13:09:58 INFO  AddItemTable:3242 - HANDLING TYPE element's Position from top is: 333 pixels.
+2023-12-28 13:09:58 INFO  AddItemTable:3246 - HANDLING TYPE element width is 93 pixels
+2023-12-28 13:09:58 INFO  AddItemTable:3250 - HANDLING TYPE element height Is 32 pixels
+2023-12-28 13:09:58 INFO  AddItemTable:3254 - HANDLING TYPE end coordinate of Web element on X axis is: 1634
+2023-12-28 13:09:58 INFO  AddItemTable:3258 - HANDLING TYPE end coordinate of Web element on Y axis is: 365
+2023-12-28 13:09:58 INFO  AddItemTable:3317 - Handling Type Element is completelly visible in the view port.
+2023-12-28 13:09:58 INFO  Waitings:477 - TOTAL TIME that the Enabled HANDLING TYPE field was observed for changing its status: 0.028 seconds.
+2023-12-28 13:10:00 INFO  AddItemTable:3218 - Browser window height is 875 pixels
+2023-12-28 13:10:00 INFO  AddItemTable:3230 - ADD ITEM Table width is 1849 pixels
+2023-12-28 13:10:00 INFO  AddItemTable:3238 - MATERIAL DESCRIPTION element's Position from left side is: 950 pixels.
+2023-12-28 13:10:00 INFO  AddItemTable:3242 - MATERIAL DESCRIPTION element's Position from top is: 333 pixels.
+2023-12-28 13:10:00 INFO  AddItemTable:3246 - MATERIAL DESCRIPTION element width is 124 pixels
+2023-12-28 13:10:00 INFO  AddItemTable:3250 - MATERIAL DESCRIPTION element height Is 32 pixels
+2023-12-28 13:10:00 INFO  AddItemTable:3254 - MATERIAL DESCRIPTION end coordinate of Web element on X axis is: 1074
+2023-12-28 13:10:00 INFO  AddItemTable:3258 - MATERIAL DESCRIPTION end coordinate of Web element on Y axis is: 365
+2023-12-28 13:10:00 INFO  AddItemTable:3317 - Material description Element is completelly visible in the view port.
+2023-12-28 13:10:01 INFO  AddItemTable:2615 - MATERIAL DESCRIPTION input field is AUTOFILLED with the value 'Heating Oil'.
+2023-12-28 13:10:01 INFO  AddItemTable:3218 - Browser window height is 875 pixels
+2023-12-28 13:10:01 INFO  AddItemTable:3230 - ADD ITEM Table width is 1849 pixels
+2023-12-28 13:10:01 INFO  AddItemTable:3238 - BASE UNIT OF MEASURE element's Position from left side is: 1150 pixels.
+2023-12-28 13:10:01 INFO  AddItemTable:3242 - BASE UNIT OF MEASURE element's Position from top is: 333 pixels.
+2023-12-28 13:10:01 INFO  AddItemTable:3246 - BASE UNIT OF MEASURE element width is 126 pixels
+2023-12-28 13:10:01 INFO  AddItemTable:3250 - BASE UNIT OF MEASURE element height Is 32 pixels
+2023-12-28 13:10:01 INFO  AddItemTable:3254 - BASE UNIT OF MEASURE end coordinate of Web element on X axis is: 1276
+2023-12-28 13:10:01 INFO  AddItemTable:3258 - BASE UNIT OF MEASURE end coordinate of Web element on Y axis is: 365
+2023-12-28 13:10:01 INFO  AddItemTable:3317 - Base Unit of Measure Element is completelly visible in the view port.
+2023-12-28 13:10:01 INFO  AddItemTable:2640 - BASE UNIT OF MEASURE input field is AUTOFILLED with the value 'L15'.
+2023-12-28 13:10:02 INFO  Waitings:269 - TOTAL TIME that DETAIL DATA Section page was loading: 0.803 seconds.
+2023-12-28 13:10:02 INFO  Waitings:269 - TOTAL TIME that PURCHASING TAB Content page was loading: 0.02 seconds.
+2023-12-28 13:10:04 INFO  Waitings:269 - TOTAL TIME that PURCHASING TAB Content page was loading: 0.019 seconds.
+2023-12-28 13:10:05 INFO  Waitings:186 - TOTAL TIME that the INPUT 'SUPPLYING PLANT' EDITABLE web-element was loading: 0.052 seconds.
+2023-12-28 13:10:05 INFO  AddItemTable:2489 - SUPPLYING PLANT input field is SUCCESSFULLY filled in.
+2023-12-28 13:10:06 INFO  AddItemTable:2460 - STOCK TRANSFER IN STOCK IN TRANSIT check-box is SUCCESSFULLY selected.
+2023-12-28 13:10:08 INFO  Waitings:186 - TOTAL TIME that the INPUT 'PURCHASING GROUP' EDITABLE web-element was loading: 0.059 seconds.
+2023-12-28 13:10:08 INFO  AddItemTable:2442 - PURCHASING GROUP input field is SUCCESSFULLY filled in.
+2023-12-28 13:10:09 INFO  Waitings:186 - TOTAL TIME that the INPUT 'PURCHASING ORGANIZATION' EDITABLE web-element was loading: 0.042 seconds.
+2023-12-28 13:10:09 INFO  AddItemTable:2410 - PURCHASING ORGANIZATION input field is SUCCESSFULLY filled in.
+2023-12-28 13:10:11 INFO  AddItemTable:2380 - PURCHASING DOC. TYPE input field is SUCCESSFULLY auto-filled with the value: UB
+2023-12-28 13:10:12 INFO  Waitings:186 - TOTAL TIME that the INPUT 'SLOCK OF STOCK TRANSFER' EDITABLE web-element was loading: 0.038 seconds.
+2023-12-28 13:10:12 INFO  AddItemTable:2358 - SLOCK OF STOCK TRANSFER input field is SUCCESSFULLY filled in.
+2023-12-28 13:10:15 INFO  AddItemTable:2308 - ACCT. ASSIGNMENT CAT. input field is EMPTY as expected (i.e. no auto-fill).
+2023-12-28 13:10:15 INFO  AddItemTable:2315 - PRICE DATE input field is SUCCESSFULLY auto-filled with the value: 28.12.2023
+2023-12-28 13:10:15 INFO  AddItemTable:2322 - INPUT TIME input field is SUCCESSFULLY auto-filled with the value: 00:00:00
+2023-12-28 13:10:15 INFO  AddItemTable:2329 - HANDLING TYPE input field is SUCCESSFULLY auto-filled with the value: 99
+2023-12-28 13:10:16 INFO  PostProcessing:491 - Button 'CHECK' is in ENABLED status.
+2023-12-28 13:10:16 INFO  PostProcessing:465 - The pre-conditioned status before clicking on CHECK button is hidden as expected.
+2023-12-28 13:10:16 INFO  Waitings:154 - TOTAL TIME that the 'PAT DOCUMENT IS COMPLETE' status message web-element was loading: 0.688 seconds.
+2023-12-28 13:10:17 INFO  LandingPage:1200 - Document Status field is in 'B' status as expected.
+2023-12-28 13:10:17 INFO  PostProcessing:429 - Button 'RELEASE' is in ENABLED status.
+2023-12-28 13:10:18 INFO  Waitings:269 - TOTAL TIME that Status update after clicking on RELEASE button page was loading: 0.021 seconds.
+2023-12-28 13:10:18 INFO  PostProcessing:403 - The preconditioned status 'PAT document is complete' is displayed as expected before clicking on RELEASE button
+2023-12-28 13:10:18 INFO  Waitings:154 - TOTAL TIME that the 'PAT DOCUMENT WAS RELEASED' status message web-element was loading: 0.604 seconds.
+2023-12-28 13:10:19 INFO  LandingPage:1205 - Document Status field is in 'C' status as expected.
+2023-12-28 13:10:19 INFO  PostProcessing:380 - Button 'SAVE' is in ENABLED status.
+2023-12-28 13:10:19 INFO  Waitings:269 - TOTAL TIME that Status update after clicking on SAVE button page was loading: 0.023 seconds.
+2023-12-28 13:10:19 INFO  PostProcessing:354 - The preconditioned status 'PAT document was released' is displayed as expected before clicking on RELEASE button
+2023-12-28 13:10:20 INFO  Waitings:154 - TOTAL TIME that the 'PAT DOCUMENT WAS SAVED' status message web-element was loading: 0.655 seconds.
+2023-12-28 13:10:21 INFO  LandingPage:1226 - Document Status field is in 'C' status as expected. Document Number is 14243.
+2023-12-28 13:10:21 INFO  PostProcessing:331 - Button 'PROCESS' is in ENABLED status.
+2023-12-28 13:10:21 INFO  Waitings:269 - TOTAL TIME that PROCESS button gets ENABLED page was loading: 0.021 seconds.
+2023-12-28 13:10:21 INFO  PostProcessing:305 - The preconditioned status 'Document '14243' was saved' is displayed as expected before clicking on PROCESS button
+2023-12-28 13:10:24 INFO  Waitings:269 - TOTAL TIME that PROCESSING OPERATION NOTIFICATION page was loading: 2.835 seconds.
+2023-12-28 13:10:26 INFO  Waitings:186 - TOTAL TIME that the DOCUMENT STATUS 'F' web-element was loading: 0.052 seconds.
+2023-12-28 13:10:26 INFO  LandingPage:1231 - Document Status field is in 'F' status as expected. Document Number is 14243.
+2023-12-28 13:10:27 INFO  Graphics_Screenshots:48 - COMPLETED DATA COLLATION PAGE window screenshot was made. 
+2023-12-28 13:10:27 INFO  Locator_DocCompare:1275 - Button 'LOCATOR' is in ENABLED status.
+2023-12-28 13:10:27 INFO  Locator_DocCompare:1257 - The 'LOCATOR' button was SUCCESSFULLY clicked on.
+2023-12-28 13:10:27 INFO  Waitings:269 - TOTAL TIME that LOCATOR PANEL page was loading: 0.603 seconds.
+2023-12-28 13:10:28 INFO  Waitings:334 - TOTAL TIME that the PERSONALIZATION POPUP page was loading: 0.022 seconds.
+2023-12-28 13:10:33 INFO  Locator_DocCompare:912 - The 'Document Status' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-12-28 13:10:33 INFO  Waitings:240 - TOTAL TIME that 'Document Number' WIDTH field page was loading: 0.02 seconds.
+2023-12-28 13:10:34 INFO  Locator_DocCompare:930 - Width for DOCUMENT STATUS input field was SUCCESSFULLY changed.
+2023-12-28 13:10:34 INFO  Locator_DocCompare:943 - DOCUMENT STATUS input field was unselected in the FIXED column BY DEFAULT.
+2023-12-28 13:10:34 INFO  Locator_DocCompare:965 - The 'Document Number' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-12-28 13:10:34 INFO  Waitings:240 - TOTAL TIME that 'Document Number' WIDTH field page was loading: 0.018 seconds.
+2023-12-28 13:10:35 INFO  Locator_DocCompare:977 - Width for DOCUMENT NUMBER input field was SUCCESSFULLY changed.
+2023-12-28 13:10:35 INFO  Locator_DocCompare:990 - DOCUMENT NUMBER input field was unselected in the FIXED column BY DEFAULT.
+2023-12-28 13:10:35 INFO  Locator_DocCompare:912 - The 'Document Status' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-12-28 13:10:35 INFO  Waitings:240 - TOTAL TIME that 'Document Number' WIDTH field page was loading: 0.019 seconds.
+2023-12-28 13:10:36 INFO  Locator_DocCompare:930 - Width for DOCUMENT STATUS input field was SUCCESSFULLY changed.
+2023-12-28 13:10:36 INFO  Locator_DocCompare:943 - DOCUMENT STATUS input field was unselected in the FIXED column BY DEFAULT.
+2023-12-28 13:10:37 INFO  Locator_DocCompare:1010 - The 'Created on' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-12-28 13:10:37 INFO  Waitings:240 - TOTAL TIME that 'Created on' WIDTH field page was loading: 0.017 seconds.
+2023-12-28 13:10:37 INFO  Locator_DocCompare:1022 - Width for CREATED ON input field was SUCCESSFULLY changed.
+2023-12-28 13:10:37 INFO  Locator_DocCompare:1035 - CREATED ON input field was unselected in the FIXED column BY DEFAULT.
+2023-12-28 13:10:38 INFO  Locator_DocCompare:1056 - The 'Created by' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-12-28 13:10:38 INFO  Waitings:240 - TOTAL TIME that 'Created by' WIDTH field page was loading: 0.017 seconds.
+2023-12-28 13:10:39 INFO  Locator_DocCompare:1068 - Width for CREATED BY input field was SUCCESSFULLY changed.
+2023-12-28 13:10:39 INFO  Locator_DocCompare:1081 - CREATED BY input field was unselected in the FIXED column BY DEFAULT.
+2023-12-28 13:10:39 INFO  Locator_DocCompare:1102 - The 'Changed On' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-12-28 13:10:39 INFO  Waitings:240 - TOTAL TIME that 'Changed On' WIDTH field page was loading: 0.016 seconds.
+2023-12-28 13:10:40 INFO  Locator_DocCompare:1114 - Width for CHANGED ON input field was SUCCESSFULLY changed.
+2023-12-28 13:10:40 INFO  Locator_DocCompare:1127 - CHANGED ON input field was unselected in the FIXED column BY DEFAULT.
+2023-12-28 13:10:40 INFO  Locator_DocCompare:1148 - The 'Changed by' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-12-28 13:10:40 INFO  Waitings:240 - TOTAL TIME that 'Changed by' WIDTH field page was loading: 0.017 seconds.
+2023-12-28 13:10:41 INFO  Locator_DocCompare:1160 - Width for CHANGED BY input field was SUCCESSFULLY changed.
+2023-12-28 13:10:41 INFO  Locator_DocCompare:1173 - CHANGED BY input field was unselected in the FIXED column BY DEFAULT.
+2023-12-28 13:10:41 INFO  LandingPage:1397 - The 'OK' button (on 'PERSONALIZATION' popup) was clicked to save Default Settings.
+2023-12-28 13:10:42 INFO  Waitings:119 - TOTAL TIME that the DATA COLLATION PAGE after closing PERSONALIZATION popup page was loading: 1.09 seconds.
+2023-12-28 13:10:45 INFO  Waitings:269 - TOTAL TIME that DOCUMENT NUMBER DROPDOWN page was loading: 0.021 seconds.
+2023-12-28 13:10:45 INFO  Locator_DocCompare:822 - The 'DOCUMENT NUMBER' input has been changed to 'DOCUMENT NUMBER' value.
+2023-12-28 13:10:45 INFO  Waitings:334 - TOTAL TIME that the DOCUMENT CONDITION dropdown on LOCATOR pane page was loading: 0.019 seconds.
+2023-12-28 13:10:48 INFO  Locator_DocCompare:858 - The 'DOCUMENT CONDITION' input has 'EQUAL TO' value selected by default as expected.
+2023-12-28 13:10:50 INFO  Locator_DocCompare:879 - DOCUMENT NUMBER input field is SUCCESSFULLY filled in with '14243'.
+2023-12-28 13:10:53 INFO  Locator_DocCompare:740 - The 'SEARCH' button was SUCCESSFULLY clicked on.
+2023-12-28 13:10:54 INFO  Waitings:269 - TOTAL TIME that RESULTS LIST TABLE page was loading: 0.547 seconds.
+2023-12-28 13:10:55 INFO  Locator_DocCompare:670 - DOCUMNET STATUS in row #1 is equal to: Posted
+2023-12-28 13:10:55 INFO  Locator_DocCompare:685 - DOCUMNET NUMBER in row #1 is equal to: 14243
+2023-12-28 13:10:56 INFO  Locator_DocCompare:494 - DOCUMNET STATUS is correctly correlated with DOCUMENT NUMBER in row #1: POSTED and 14243
+2023-12-28 13:10:58 INFO  Graphics_Screenshots:48 - LOCATOR PANEL WITH DOCUMENT STATUS window screenshot was made. 
+2023-12-28 13:11:00 INFO  Locator_DocCompare:1275 - Button 'LOCATOR' is in ENABLED status.
+2023-12-28 13:11:00 INFO  Locator_DocCompare:599 - The 'LOCATOR' button was SUCCESSFULLY clicked on.
+2023-12-28 13:11:05 INFO  Waitings:119 - TOTAL TIME that the DOCUMENT FLOW panel page was loading: 2.114 seconds.
+2023-12-28 13:11:06 INFO  LandingPage:1049 - Retrieved 'STOCK TRANSPORT ORDER' number = 4500009167
+2023-12-28 13:11:06 INFO  LandingPage:1065 - 'Stock Transport Order' number was successfully retrieved from the 2nd row of the DOCUMENT FLOW table. It is equal to '4500009167' 
+2023-12-28 13:11:06 INFO  LandingPage:1313 - Button 'NEW' is in ENABLED status.
+2023-12-28 13:11:06 INFO  LandingPage:1289 - 'NEW' button was clicked on the main toolbar.
+2023-12-28 13:11:07 INFO  Waitings:269 - TOTAL TIME that Editable HEADER DATA Table page was loading: 0.438 seconds.
+2023-12-28 13:11:07 WARN  LandingPage:1315 - Button 'NEW' is in DISABLED status.
+2023-12-28 13:11:07 INFO  Graphics_Screenshots:48 - STU EMPTY PAGE window screenshot was made. 
+2023-12-28 13:11:07 INFO  LandingPage:1267 - Button 'ADD ITEM' is in ENABLED status.
+2023-12-28 13:11:07 WARN  LandingPage:1362 - The 'Add Item' table is EMPTY.
+2023-12-28 13:11:07 INFO  Test_Cases:602 - 'ADD ITEM' button was clicked because the 'ITEM DATA' table has NO editable rows yet.
+2023-12-28 13:11:07 INFO  AddItemTable:3218 - Browser window height is 875 pixels
+2023-12-28 13:11:07 INFO  AddItemTable:3230 - ADD ITEM Table width is 1849 pixels
+2023-12-28 13:11:07 INFO  AddItemTable:3238 - MATERIAL element's Position from left side is: 886 pixels.
+2023-12-28 13:11:07 INFO  AddItemTable:3242 - MATERIAL element's Position from top is: 365 pixels.
+2023-12-28 13:11:07 INFO  AddItemTable:3246 - MATERIAL element width is 62 pixels
+2023-12-28 13:11:07 INFO  AddItemTable:3250 - MATERIAL element height Is 32 pixels
+2023-12-28 13:11:07 INFO  AddItemTable:3254 - MATERIAL end coordinate of Web element on X axis is: 948
+2023-12-28 13:11:07 INFO  AddItemTable:3258 - MATERIAL end coordinate of Web element on Y axis is: 397
+2023-12-28 13:11:07 INFO  AddItemTable:3317 - Material Element is completelly visible in the view port.
+2023-12-28 13:11:08 INFO  Waitings:240 - TOTAL TIME that Editable first row of ADD ITEM Table - 'LEFT part' page was loading: 0.307 seconds.
+2023-12-28 13:11:08 INFO  Waitings:240 - TOTAL TIME that Editable first row of ADD ITEM Table - 'RIGHT part' page was loading: 0.058 seconds.
+2023-12-28 13:11:10 INFO  LandingPage:1195 - Document Status field is in 'A' status as expected.
+2023-12-28 13:11:21 INFO  Waitings:477 - TOTAL TIME that the RIGHT PART of ADD ITEM TABLE was observed for changing its status: 1.08 seconds.
+2023-12-28 13:11:24 INFO  AddItemTable:3218 - Browser window height is 875 pixels
+2023-12-28 13:11:24 INFO  AddItemTable:3230 - ADD ITEM Table width is 1849 pixels
+2023-12-28 13:11:24 INFO  AddItemTable:3238 - REFERENCE DOCUMENT element's Position from left side is: 662 pixels.
+2023-12-28 13:11:24 INFO  AddItemTable:3242 - REFERENCE DOCUMENT element's Position from top is: 365 pixels.
+2023-12-28 13:11:24 INFO  AddItemTable:3246 - REFERENCE DOCUMENT element width is 125 pixels
+2023-12-28 13:11:24 INFO  AddItemTable:3250 - REFERENCE DOCUMENT element height Is 32 pixels
+2023-12-28 13:11:24 INFO  AddItemTable:3254 - REFERENCE DOCUMENT end coordinate of Web element on X axis is: 787
+2023-12-28 13:11:24 INFO  AddItemTable:3258 - REFERENCE DOCUMENT end coordinate of Web element on Y axis is: 397
+2023-12-28 13:11:24 INFO  AddItemTable:3317 - Reference Document Element is completelly visible in the view port.
+2023-12-28 13:11:24 INFO  AddItemTable:2247 - REFERENCE DOCUMENT input field is SUCCESSFULLY filled in.
+2023-12-28 13:11:25 INFO  Waitings:269 - TOTAL TIME that PROCESSING IMPORT FROM PURCHASE ORDER '4500009167' page was loading: 0.706 seconds.
+2023-12-28 13:11:26 INFO  AddItemTable:3218 - Browser window height is 875 pixels
+2023-12-28 13:11:26 INFO  AddItemTable:3230 - ADD ITEM Table width is 1849 pixels
+2023-12-28 13:11:26 INFO  AddItemTable:3238 - REFERENCE ITEM element's Position from left side is: 789 pixels.
+2023-12-28 13:11:26 INFO  AddItemTable:3242 - REFERENCE ITEM element's Position from top is: 333 pixels.
+2023-12-28 13:11:26 INFO  AddItemTable:3246 - REFERENCE ITEM element width is 95 pixels
+2023-12-28 13:11:26 INFO  AddItemTable:3250 - REFERENCE ITEM element height Is 32 pixels
+2023-12-28 13:11:26 INFO  AddItemTable:3254 - REFERENCE ITEM end coordinate of Web element on X axis is: 884
+2023-12-28 13:11:26 INFO  AddItemTable:3258 - REFERENCE ITEM end coordinate of Web element on Y axis is: 365
+2023-12-28 13:11:26 INFO  AddItemTable:3317 - Reference Item Element is completelly visible in the view port.
+2023-12-28 13:11:26 WARN  AddItemTable:1925 - REFERENCE ITEM input field is AUTOFILLED with the value '000010'. EXPECTED value should be ''!
+2023-12-28 13:11:26 INFO  AddItemTable:3218 - Browser window height is 875 pixels
+2023-12-28 13:11:26 INFO  AddItemTable:3230 - ADD ITEM Table width is 1849 pixels
+2023-12-28 13:11:26 INFO  AddItemTable:3238 - MATERIAL element's Position from left side is: 886 pixels.
+2023-12-28 13:11:26 INFO  AddItemTable:3242 - MATERIAL element's Position from top is: 333 pixels.
+2023-12-28 13:11:26 INFO  AddItemTable:3246 - MATERIAL element width is 62 pixels
+2023-12-28 13:11:26 INFO  AddItemTable:3250 - MATERIAL element height Is 32 pixels
+2023-12-28 13:11:26 INFO  AddItemTable:3254 - MATERIAL end coordinate of Web element on X axis is: 948
+2023-12-28 13:11:26 INFO  AddItemTable:3258 - MATERIAL end coordinate of Web element on Y axis is: 365
+2023-12-28 13:11:26 INFO  AddItemTable:3317 - Material Element is completelly visible in the view port.
+2023-12-28 13:11:26 WARN  AddItemTable:1955 - MATERIAL input field is AUTOFILLED with the value 'OGSD_200'. EXPECTED value should be ''!
+2023-12-28 13:11:26 INFO  AddItemTable:3218 - Browser window height is 875 pixels
+2023-12-28 13:11:26 INFO  AddItemTable:3230 - ADD ITEM Table width is 1849 pixels
+2023-12-28 13:11:26 INFO  AddItemTable:3238 - MATERIAL DESCRIPTION element's Position from left side is: 950 pixels.
+2023-12-28 13:11:26 INFO  AddItemTable:3242 - MATERIAL DESCRIPTION element's Position from top is: 333 pixels.
+2023-12-28 13:11:26 INFO  AddItemTable:3246 - MATERIAL DESCRIPTION element width is 124 pixels
+2023-12-28 13:11:26 INFO  AddItemTable:3250 - MATERIAL DESCRIPTION element height Is 32 pixels
+2023-12-28 13:11:26 INFO  AddItemTable:3254 - MATERIAL DESCRIPTION end coordinate of Web element on X axis is: 1074
+2023-12-28 13:11:26 INFO  AddItemTable:3258 - MATERIAL DESCRIPTION end coordinate of Web element on Y axis is: 365
+2023-12-28 13:11:26 INFO  AddItemTable:3317 - Material description Element is completelly visible in the view port.
+2023-12-28 13:11:26 WARN  AddItemTable:1985 - MATERIAL DESCRIPTION input field is AUTOFILLED with the value 'Heating Oil'. EXPECTED value should be 'Gasoil'!
+2023-12-28 13:11:26 INFO  AddItemTable:3218 - Browser window height is 875 pixels
+2023-12-28 13:11:26 INFO  AddItemTable:3230 - ADD ITEM Table width is 1849 pixels
+2023-12-28 13:11:26 INFO  AddItemTable:3238 - QUANTITY element's Position from left side is: 1076 pixels.
+2023-12-28 13:11:26 INFO  AddItemTable:3242 - QUANTITY element's Position from top is: 333 pixels.
+2023-12-28 13:11:26 INFO  AddItemTable:3246 - QUANTITY element width is 72 pixels
+2023-12-28 13:11:26 INFO  AddItemTable:3250 - QUANTITY element height Is 32 pixels
+2023-12-28 13:11:26 INFO  AddItemTable:3254 - QUANTITY end coordinate of Web element on X axis is: 1148
+2023-12-28 13:11:26 INFO  AddItemTable:3258 - QUANTITY end coordinate of Web element on Y axis is: 365
+2023-12-28 13:11:26 INFO  AddItemTable:3317 - Quantity Element is completelly visible in the view port.
+2023-12-28 13:11:27 INFO  AddItemTable:2012 - QUANTITY input field is AUTOFILLED with the value '100,000'.
+2023-12-28 13:11:27 INFO  AddItemTable:3218 - Browser window height is 875 pixels
+2023-12-28 13:11:27 INFO  AddItemTable:3230 - ADD ITEM Table width is 1849 pixels
+2023-12-28 13:11:27 INFO  AddItemTable:3238 - BASE UNIT OF MEASURE element's Position from left side is: 1150 pixels.
+2023-12-28 13:11:27 INFO  AddItemTable:3242 - BASE UNIT OF MEASURE element's Position from top is: 333 pixels.
+2023-12-28 13:11:27 INFO  AddItemTable:3246 - BASE UNIT OF MEASURE element width is 126 pixels
+2023-12-28 13:11:27 INFO  AddItemTable:3250 - BASE UNIT OF MEASURE element height Is 32 pixels
+2023-12-28 13:11:27 INFO  AddItemTable:3254 - BASE UNIT OF MEASURE end coordinate of Web element on X axis is: 1276
+2023-12-28 13:11:27 INFO  AddItemTable:3258 - BASE UNIT OF MEASURE end coordinate of Web element on Y axis is: 365
+2023-12-28 13:11:27 INFO  AddItemTable:3317 - Base Unit of Measure Element is completelly visible in the view port.
+2023-12-28 13:11:27 INFO  AddItemTable:2041 - BASE UNIT OF MEASURE input field is AUTOFILLED with the value 'L15'.
+2023-12-28 13:11:27 INFO  AddItemTable:3218 - Browser window height is 875 pixels
+2023-12-28 13:11:27 INFO  AddItemTable:3230 - ADD ITEM Table width is 1849 pixels
+2023-12-28 13:11:27 INFO  AddItemTable:3238 - PLANT element's Position from left side is: 1278 pixels.
+2023-12-28 13:11:27 INFO  AddItemTable:3242 - PLANT element's Position from top is: 333 pixels.
+2023-12-28 13:11:27 INFO  AddItemTable:3246 - PLANT element width is 60 pixels
+2023-12-28 13:11:27 INFO  AddItemTable:3250 - PLANT element height Is 32 pixels
+2023-12-28 13:11:27 INFO  AddItemTable:3254 - PLANT end coordinate of Web element on X axis is: 1338
+2023-12-28 13:11:27 INFO  AddItemTable:3258 - PLANT end coordinate of Web element on Y axis is: 365
+2023-12-28 13:11:27 INFO  AddItemTable:3317 - Plant Element is completelly visible in the view port.
+2023-12-28 13:11:27 INFO  AddItemTable:2070 - PLANT input field is AUTOFILLED with the value 'GP01'.
+2023-12-28 13:11:27 INFO  AddItemTable:3218 - Browser window height is 875 pixels
+2023-12-28 13:11:27 INFO  AddItemTable:3230 - ADD ITEM Table width is 1849 pixels
+2023-12-28 13:11:27 INFO  AddItemTable:3238 - STORAGE LOCATION element's Position from left side is: 1340 pixels.
+2023-12-28 13:11:27 INFO  AddItemTable:3242 - STORAGE LOCATION element's Position from top is: 333 pixels.
+2023-12-28 13:11:27 INFO  AddItemTable:3246 - STORAGE LOCATION element width is 104 pixels
+2023-12-28 13:11:27 INFO  AddItemTable:3250 - STORAGE LOCATION element height Is 32 pixels
+2023-12-28 13:11:27 INFO  AddItemTable:3254 - STORAGE LOCATION end coordinate of Web element on X axis is: 1444
+2023-12-28 13:11:27 INFO  AddItemTable:3258 - STORAGE LOCATION end coordinate of Web element on Y axis is: 365
+2023-12-28 13:11:27 INFO  AddItemTable:3317 - Storage location Element is completelly visible in the view port.
+2023-12-28 13:11:27 INFO  AddItemTable:2099 - STORAGE LOCATION input field is AUTOFILLED with the value 'G1L1'.
+2023-12-28 13:11:27 INFO  AddItemTable:3218 - Browser window height is 875 pixels
+2023-12-28 13:11:27 INFO  AddItemTable:3230 - ADD ITEM Table width is 1849 pixels
+2023-12-28 13:11:27 INFO  AddItemTable:3238 - VALUATION TYPE element's Position from left side is: 1446 pixels.
+2023-12-28 13:11:27 INFO  AddItemTable:3242 - VALUATION TYPE element's Position from top is: 333 pixels.
+2023-12-28 13:11:27 INFO  AddItemTable:3246 - VALUATION TYPE element width is 93 pixels
+2023-12-28 13:11:27 INFO  AddItemTable:3250 - VALUATION TYPE element height Is 32 pixels
+2023-12-28 13:11:27 INFO  AddItemTable:3254 - VALUATION TYPE end coordinate of Web element on X axis is: 1539
+2023-12-28 13:11:27 INFO  AddItemTable:3258 - VALUATION TYPE end coordinate of Web element on Y axis is: 365
+2023-12-28 13:11:27 INFO  AddItemTable:3317 - Valuation Type Element is completelly visible in the view port.
+2023-12-28 13:11:27 INFO  AddItemTable:2128 - VALUATION TYPE input field is AUTOFILLED with the value 'UNTAX'.
+2023-12-28 13:11:27 INFO  PostProcessing:491 - Button 'CHECK' is in ENABLED status.
+2023-12-28 13:11:27 INFO  PostProcessing:465 - The pre-conditioned status before clicking on CHECK button is hidden as expected.
+2023-12-28 13:11:28 INFO  Waitings:154 - TOTAL TIME that the 'PAT DOCUMENT IS COMPLETE' status message web-element was loading: 0.537 seconds.
+2023-12-28 13:11:29 INFO  LandingPage:1200 - Document Status field is in 'B' status as expected.
+2023-12-28 13:11:29 INFO  PostProcessing:429 - Button 'RELEASE' is in ENABLED status.
+2023-12-28 13:11:29 INFO  Waitings:269 - TOTAL TIME that Status update after clicking on RELEASE button page was loading: 0.02 seconds.
+2023-12-28 13:11:29 INFO  PostProcessing:403 - The preconditioned status 'PAT document is complete' is displayed as expected before clicking on RELEASE button
+2023-12-28 13:11:30 INFO  Waitings:154 - TOTAL TIME that the 'PAT DOCUMENT WAS RELEASED' status message web-element was loading: 0.475 seconds.
+2023-12-28 13:11:31 INFO  LandingPage:1205 - Document Status field is in 'C' status as expected.
+2023-12-28 13:11:31 INFO  PostProcessing:380 - Button 'SAVE' is in ENABLED status.
+2023-12-28 13:11:31 INFO  Waitings:269 - TOTAL TIME that Status update after clicking on SAVE button page was loading: 0.019 seconds.
+2023-12-28 13:11:31 INFO  PostProcessing:354 - The preconditioned status 'PAT document was released' is displayed as expected before clicking on RELEASE button
+2023-12-28 13:11:32 INFO  Waitings:154 - TOTAL TIME that the 'PAT DOCUMENT WAS SAVED' status message web-element was loading: 0.737 seconds.
+2023-12-28 13:11:33 INFO  LandingPage:1226 - Document Status field is in 'C' status as expected. Document Number is 14244.
+2023-12-28 13:11:33 INFO  PostProcessing:331 - Button 'PROCESS' is in ENABLED status.
+2023-12-28 13:11:33 INFO  Waitings:269 - TOTAL TIME that PROCESS button gets ENABLED page was loading: 0.02 seconds.
+2023-12-28 13:11:33 INFO  PostProcessing:305 - The preconditioned status 'Document '14244' was saved' is displayed as expected before clicking on PROCESS button
+2023-12-28 13:11:34 INFO  Waitings:269 - TOTAL TIME that PROCESSING OPERATION NOTIFICATION page was loading: 1.317 seconds.
+2023-12-28 13:11:36 INFO  LandingPage:1231 - Document Status field is in 'F' status as expected. Document Number is 14244.
+2023-12-28 13:11:37 INFO  Graphics_Screenshots:48 - COMPLETED POSTPROCESSING DATA COLLATION PAGE window screenshot was made. 
+2023-12-28 13:11:37 INFO  Locator_DocCompare:1275 - Button 'LOCATOR' is in ENABLED status.
+2023-12-28 13:11:37 INFO  Locator_DocCompare:1257 - The 'LOCATOR' button was SUCCESSFULLY clicked on.
+2023-12-28 13:11:37 INFO  Waitings:269 - TOTAL TIME that LOCATOR PANEL page was loading: 0.595 seconds.
+2023-12-28 13:11:38 INFO  Locator_DocCompare:825 - The 'DOCUMENT NUMBER' input has 'Document Number' value selected by default as expected.
+2023-12-28 13:11:38 INFO  Waitings:334 - TOTAL TIME that the DOCUMENT CONDITION dropdown on LOCATOR pane page was loading: 0.01 seconds.
+2023-12-28 13:11:41 INFO  Locator_DocCompare:858 - The 'DOCUMENT CONDITION' input has 'EQUAL TO' value selected by default as expected.
+2023-12-28 13:11:44 INFO  Locator_DocCompare:879 - DOCUMENT NUMBER input field is SUCCESSFULLY filled in with '14244'.
+2023-12-28 13:11:47 INFO  Locator_DocCompare:740 - The 'SEARCH' button was SUCCESSFULLY clicked on.
+2023-12-28 13:11:47 INFO  Waitings:269 - TOTAL TIME that RESULTS LIST TABLE page was loading: 0.028 seconds.
+2023-12-28 13:11:48 INFO  Locator_DocCompare:670 - DOCUMNET STATUS in row #1 is equal to: Posted
+2023-12-28 13:11:48 INFO  Locator_DocCompare:685 - DOCUMNET NUMBER in row #1 is equal to: 14244
+2023-12-28 13:11:49 INFO  Locator_DocCompare:494 - DOCUMNET STATUS is correctly correlated with DOCUMENT NUMBER in row #1: POSTED and 14244
+2023-12-28 13:11:51 INFO  Graphics_Screenshots:48 - LOCATOR POSTPROCESSING PANEL WITH DOCUMENT STATUS window screenshot was made. 
+2023-12-28 13:11:53 INFO  Locator_DocCompare:1275 - Button 'LOCATOR' is in ENABLED status.
+2023-12-28 13:11:53 INFO  Locator_DocCompare:599 - The 'LOCATOR' button was SUCCESSFULLY clicked on.
+2023-12-28 13:11:56 INFO  PostProcessing:282 - Button 'REVERSE' is in ENABLED status.
+2023-12-28 13:11:56 INFO  Waitings:477 - TOTAL TIME that the REVERSE button gets ENABLED was observed for changing its status: 0.031 seconds.
+2023-12-28 13:11:58 INFO  Waitings:218 - TOTAL TIME that the WARNING POPUP ON REVERSE ACTION page was loading: 0.024 seconds.
+2023-12-28 13:11:59 INFO  LandingPage:1021 - 'OK' button was SUCCESSFULLY clicked on WARNING popup.
+2023-12-28 13:12:00 INFO  Waitings:154 - TOTAL TIME that the WARNING POPUP web-element was loading: 1.079 seconds.
+2023-12-28 13:12:00 INFO  Waitings:334 - TOTAL TIME that the WARNING POPUP page was loading: 0.017 seconds.
+2023-12-28 13:12:02 INFO  LandingPage:941 - Reversed Document Number is bigger by 1 than the original document number as expected. Reversed Document Number is 14245. Original Document Number is 14244.
+2023-12-28 13:12:03 INFO  Graphics_Screenshots:48 - REVERSED DOCUMENT PAGE window screenshot was made. 
+2023-12-28 13:12:03 INFO  LandingPage:941 - Reversed Document Number is bigger by 1 than the original document number as expected. Reversed Document Number is 14245. Original Document Number is 14244.
+2023-12-28 13:12:03 INFO  Locator_DocCompare:1257 - The 'LOCATOR' button was SUCCESSFULLY clicked on.
+2023-12-28 13:12:04 INFO  Waitings:269 - TOTAL TIME that LOCATOR PANEL page was loading: 0.558 seconds.
+2023-12-28 13:12:05 INFO  Locator_DocCompare:534 - The 'DOCUMENT NUMBER' input has 'Document Number' value selected by default as expected.
+2023-12-28 13:12:05 INFO  Waitings:334 - TOTAL TIME that the DOCUMENT CONDITION dropdown on LOCATOR pane page was loading: 0.012 seconds.
+2023-12-28 13:12:08 INFO  Locator_DocCompare:565 - The 'DOCUMENT CONDITION' input has 'EQUAL TO' value selected by default as expected.
+2023-12-28 13:12:08 INFO  Locator_DocCompare:583 - DOCUMENT NUMBER input field is SUCCESSFULLY filled in with '14245'.
+2023-12-28 13:12:09 INFO  Locator_DocCompare:740 - The 'SEARCH' button was SUCCESSFULLY clicked on.
+2023-12-28 13:12:09 INFO  Waitings:269 - TOTAL TIME that RESULTS LIST TABLE page was loading: 0.03 seconds.
+2023-12-28 13:12:20 INFO  Locator_DocSearch:58 - The FIRST ROW in SEARCH RESULTS was SUCCESSFULLY clicked on.
+2023-12-28 13:12:20 INFO  Waitings:72 - TOTAL TIME that the DOCUMENT's STATUS ICON web-element was loading: 0.024 seconds.
+2023-12-28 13:12:23 INFO  Waitings:186 - TOTAL TIME that the UPDATED 'DATA COLLATION' page after clicking on the result in LOCATOR panel web-element was loading: 0.069 seconds.
+2023-12-28 13:12:25 INFO  Locator_DocCompare:599 - The 'LOCATOR' button was SUCCESSFULLY clicked on.
+2023-12-28 13:12:28 INFO  Waitings:477 - TOTAL TIME that the PROCESS button gets ENABLED was observed for changing its status: 0.068 seconds.
+2023-12-28 13:12:29 INFO  Waitings:269 - TOTAL TIME that PROCESSING OPERATION NOTIFICATION page was loading: 1.204 seconds.
+2023-12-28 13:12:31 INFO  Waitings:269 - TOTAL TIME that DOCUMENT STATUS 'F' page was loading: 0.045 seconds.
+2023-12-28 13:12:32 INFO  LandingPage:726 - Document Status field is in 'F' status as expected. Document Number is 14245.
+2023-12-28 13:12:32 INFO  Graphics_Screenshots:48 - REPROCESSED DOCUMENT PAGE window screenshot was made. 

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestNG_Suite1" verbose="1" thread-count="1" parallel="none">
+
+    <!-- TARGET SYSTEM/CLIENT PARAMETERS - Please, enter required parameteres here  -->
+    <parameter name="target_System" value="ohq"/> <!-- Allowed values: "OGQ_100", "OFQ_100" -->
+    <parameter name="target_System_Client" value="OHQ_100"/> <!-- Allowed values: "OGQ_100", "OFQ_100" -->
+
+
+    <!-- EDITABLE ENTRY PARAMETERS - Please, enter required parameteres here  -->
+    <parameter name="browser" value="chrome" /> <!-- Allowed values: "firefox", "ie", "chrome" -->
+    <parameter name="item_Type_1" value="STN"/>
+    <parameter name="item_Type_2" value="STU"/>
+    <parameter name="item_Type_3" value="XSTU"/>
+    <parameter name="cell_Material" value="OGSD_200"/>
+    <parameter name="cell_Qty" value="100"/>
+    <parameter name="cell_Plant" value="GP01"/>
+    <parameter name="cell_StorgLocatn" value="G1L1"/>
+    <parameter name="cell_ValtnType" value="UNTAX"/>
+    <parameter name="cell_HandlingType" value="99"/>
+
+
+    <parameter name="input_SupplyPlant" value="GP01" />
+    <parameter name="input_PurchasingGroup" value="GPU" />
+    <parameter name="input_PurchasingOrganization" value="GPUR" />
+    <parameter name="input_SlockOfStockTransfer" value="G1LT" />
+
+
+
+
+    <!-- AUTOCOMPLETE PARAMETERS - Please, enter expected parameteres here  -->
+    <parameter name="auto_cell_MaterialDescription" value="Gasoil"/>
+    <parameter name="auto_cell_BaseUnitOfMeasure" value="L15"/>
+
+    <!-- FIREFOX PROFILE - Please, create a separate firefox profile, import SAP certificate into it and use the profile's name as a value - FYI: https://www.wikihow.com/Create-a-Firefox-Profile -->
+    <parameter name="FireFoxProfileName" value="DC_CSN_Profile"/>
+
+
+
+
+
+    <!-- TEST #1 -->
+       <test name="Item Category - XSTU" group-by-instances="true" preserve-order="true">
+
+        <classes>
+            <class name="org.project.Test_Cases">
+
+                <methods>
+                    <!--<exclude name="brokenTests"  /> -->
+                    <include name="openDataCollationPage_Testing"/>
+                    <include name="add_NewItemRow_Testing"/>
+                    <include name="fill_in_NewItemFields_Testing"/>
+                    <include name="fill_in_ItemCategory_Testing"/>
+                    <include name="fill_in_RightPartOfTable_Testing"/>
+                    <include name="finalize_ProcessingOfSalesOrder_Testing"/>
+                    <include name="postprocessing_ComparePostedAndCancelledSalesOrder_Testing"/>
+                    <include name="postprocessing_Read_StockTransportOrderNumber_Testing"/>
+                    <include name="add_NewItemRowForNewDocument_Testing"/>
+                    <include name="fill_in_NewItemFieldsForNewDocument_Testing"/>
+                    <include name="fill_in_ItemCategoryForNewDocument_Testing"/>
+                    <include name="fill_in_RightPartOfTableForOtherDocument_Testing"/>
+                    <include name="finalize_ProcessingOfSalesOrderForOtherDocument_Testing"/>
+                    <include name="postprocessing_ComparePostedAndCancelledSalesOrderForOtherDocument_Testing"/>
+                    <include name="postprocessing_ReverseSalesOrder_Testing"/>
+                    <include name="postprocessing_RePostingCancelledSalesOrder_Testing"/>
+                    <!--<include name="postprocessing_ComparePostedAndCancelledSalesOrderForOtherDocument_RoundTwo_Testing"/>-->
+                </methods>
+
+            </class>
+        </classes>
+
+    </test>
+
+
+</suite>

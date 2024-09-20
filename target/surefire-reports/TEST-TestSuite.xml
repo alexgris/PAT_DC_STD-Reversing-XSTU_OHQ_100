@@ -1,0 +1,1109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="252.792" tests="16" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="12"/>
+    <property name="webdriver.chrome.driver" value="C:\SeleniumWebDrivers\Chrome\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Temp\PAT_DC_STD-Reversing-XSTU_OHQ_100\target\test-classes;C:\Temp\PAT_DC_STD-Reversing-XSTU_OHQ_100\target\classes;C:\Users\c5282596\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\c5282596\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\selenium-java\3.4.0\selenium-java-3.4.0.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\selenium-api\3.4.0\selenium-api-3.4.0.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.4.0\selenium-chrome-driver-3.4.0.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.4.0\selenium-edge-driver-3.4.0.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.4.0\selenium-firefox-driver-3.4.0.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.4.0\selenium-ie-driver-3.4.0.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.4.0\selenium-opera-driver-3.4.0.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.4.0\selenium-remote-driver-3.4.0.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.4.0\selenium-safari-driver-3.4.0.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\selenium-support\3.4.0\selenium-support-3.4.0.jar;C:\Users\c5282596\.m2\repository\cglib\cglib-nodep\3.2.4\cglib-nodep-3.2.4.jar;C:\Users\c5282596\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\c5282596\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\c5282596\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\c5282596\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\c5282596\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\c5282596\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.22\cssparser-0.9.22.jar;C:\Users\c5282596\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\c5282596\.m2\repository\com\google\guava\guava\21.0\guava-21.0.jar;C:\Users\c5282596\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.26\htmlunit-core-js-2.26.jar;C:\Users\c5282596\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.25\neko-htmlunit-2.25.jar;C:\Users\c5282596\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\c5282596\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\c5282596\.m2\repository\org\eclipse\jetty\jetty-io\9.4.1.v20170120\jetty-io-9.4.1.v20170120.jar;C:\Users\c5282596\.m2\repository\org\eclipse\jetty\jetty-util\9.4.1.v20170120\jetty-util-9.4.1.v20170120.jar;C:\Users\c5282596\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Users\c5282596\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.26\htmlunit-driver-2.26.jar;C:\Users\c5282596\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.3.v20170317\websocket-api-9.4.3.v20170317.jar;C:\Users\c5282596\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.3.v20170317\websocket-client-9.4.3.v20170317.jar;C:\Users\c5282596\.m2\repository\org\eclipse\jetty\jetty-client\9.4.3.v20170317\jetty-client-9.4.3.v20170317.jar;C:\Users\c5282596\.m2\repository\org\eclipse\jetty\jetty-http\9.4.3.v20170317\jetty-http-9.4.3.v20170317.jar;C:\Users\c5282596\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.3.v20170317\websocket-common-9.4.3.v20170317.jar;C:\Users\c5282596\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\c5282596\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\c5282596\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\c5282596\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\c5282596\.m2\repository\javax\servlet\javax.servlet-api\3.0.1\javax.servlet-api-3.0.1.jar;C:\Users\c5282596\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\c5282596\.m2\repository\org\jsoup\jsoup\1.10.3\jsoup-1.10.3.jar;C:\Users\c5282596\.m2\repository\org\jetbrains\annotations-java5\16.0.2\annotations-java5-16.0.2.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.0.0-M5\maven-surefire-plugin-3.0.0-M5.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.0.0-M5\maven-surefire-common-3.0.0-M5.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0-M5\surefire-api-3.0.0-M5.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0-M5\surefire-logger-api-3.0.0-M5.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.0.0-M5\surefire-extensions-api-3.0.0-M5.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\surefire\surefire-booter\3.0.0-M5\surefire-booter-3.0.0-M5.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.0.0-M5\surefire-extensions-spi-3.0.0-M5.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\maven-toolchain\3.0-alpha-2\maven-toolchain-3.0-alpha-2.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\shared\maven-artifact-transfer\0.11.0\maven-artifact-transfer-0.11.0.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.0.1\maven-common-artifact-filters-3.0.1.jar;C:\Users\c5282596\.m2\repository\org\codehaus\plexus\plexus-java\1.0.5\plexus-java-1.0.5.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.0.0-M4\surefire-shared-utils-3.0.0-M4.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\plugins\maven-compiler-plugin\3.6.1\maven-compiler-plugin-3.6.1.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\maven-plugin-api\3.0\maven-plugin-api-3.0.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\maven-model\3.0\maven-model-3.0.jar;C:\Users\c5282596\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar;C:\Users\c5282596\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar;C:\Users\c5282596\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\maven-artifact\3.0\maven-artifact-3.0.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\maven-core\3.0\maven-core-3.0.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\maven-settings-builder\3.0\maven-settings-builder-3.0.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\maven-repository-metadata\3.0\maven-repository-metadata-3.0.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\maven-model-builder\3.0\maven-model-builder-3.0.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\maven-aether-provider\3.0\maven-aether-provider-3.0.jar;C:\Users\c5282596\.m2\repository\org\sonatype\aether\aether-impl\1.7\aether-impl-1.7.jar;C:\Users\c5282596\.m2\repository\org\sonatype\aether\aether-spi\1.7\aether-spi-1.7.jar;C:\Users\c5282596\.m2\repository\org\sonatype\aether\aether-api\1.7\aether-api-1.7.jar;C:\Users\c5282596\.m2\repository\org\sonatype\aether\aether-util\1.7\aether-util-1.7.jar;C:\Users\c5282596\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.14\plexus-interpolation-1.14.jar;C:\Users\c5282596\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.3\plexus-classworlds-2.2.3.jar;C:\Users\c5282596\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\c5282596\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar;C:\Users\c5282596\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.1.0\maven-shared-utils-3.1.0.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\shared\maven-shared-incremental\1.1\maven-shared-incremental-1.1.jar;C:\Users\c5282596\.m2\repository\org\ow2\asm\asm\6.0_ALPHA\asm-6.0_ALPHA.jar;C:\Users\c5282596\.m2\repository\com\thoughtworks\qdox\qdox\2.0-M5\qdox-2.0-M5.jar;C:\Users\c5282596\.m2\repository\org\codehaus\plexus\plexus-compiler-api\2.8.1\plexus-compiler-api-2.8.1.jar;C:\Users\c5282596\.m2\repository\org\codehaus\plexus\plexus-compiler-manager\2.8.1\plexus-compiler-manager-2.8.1.jar;C:\Users\c5282596\.m2\repository\org\codehaus\plexus\plexus-compiler-javac\2.8.1\plexus-compiler-javac-2.8.1.jar;C:\Users\c5282596\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\c5282596\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\c5282596\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.26\htmlunit-2.26.jar;C:\Users\c5282596\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\c5282596\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;C:\Users\c5282596\.m2\repository\org\slf4j\slf4j-simple\1.7.7\slf4j-simple-1.7.7.jar;C:\Users\c5282596\.m2\repository\org\slf4j\slf4j-api\1.7.7\slf4j-api-1.7.7.jar;C:\Users\c5282596\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\c5282596\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;C:\Users\c5282596\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.2.2\jackson-core-2.2.2.jar;C:\Users\c5282596\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.2.2\jackson-databind-2.2.2.jar;C:\Users\c5282596\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.2.2\jackson-annotations-2.2.2.jar;C:\Users\c5282596\.m2\repository\org\w3c\dom\2.3.0-jaxb-1.0.6\dom-2.3.0-jaxb-1.0.6.jar;C:\Users\c5282596\.m2\repository\sax\sax\2.0.1\sax-2.0.1.jar;C:\Users\c5282596\.m2\repository\org\json\json\20171018\json-20171018.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\selenium-htmlunit-driver\2.52.0\selenium-htmlunit-driver-2.52.0.jar;C:\Users\c5282596\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\c5282596\.m2\repository\com\codeborne\phantomjsdriver\1.4.4\phantomjsdriver-1.4.4.jar;C:\Users\c5282596\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\c5282596\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\c5282596\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\c5282596\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\c5282596\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\maven-settings\3.6.2\maven-settings-3.6.2.jar;C:\Users\c5282596\.m2\repository\org\codehaus\plexus\plexus-utils\3.2.1\plexus-utils-3.2.1.jar;C:\Temp\External_XPathes_DC_OHQ_100\out\artifacts\External_XPathes_DC_OHQ_100_jar\External_XPathes_DC_OHQ_100.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="12"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-12.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\c5282596\AppData\Local\Temp\surefire11164017491935733464\surefirebooter8293671389330587913.jar C:\Users\c5282596\AppData\Local\Temp\surefire11164017491935733464 2023-05-30T12-21-53_952-jvmRun1 surefire15999766859581372464tmp surefire_011818612716230493155tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Temp\PAT_DC_STD-Reversing-XSTU_OHQ_100\target\test-classes;C:\Temp\PAT_DC_STD-Reversing-XSTU_OHQ_100\target\classes;C:\Users\c5282596\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\c5282596\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\selenium-java\3.4.0\selenium-java-3.4.0.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\selenium-api\3.4.0\selenium-api-3.4.0.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.4.0\selenium-chrome-driver-3.4.0.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.4.0\selenium-edge-driver-3.4.0.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.4.0\selenium-firefox-driver-3.4.0.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.4.0\selenium-ie-driver-3.4.0.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.4.0\selenium-opera-driver-3.4.0.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.4.0\selenium-remote-driver-3.4.0.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.4.0\selenium-safari-driver-3.4.0.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\selenium-support\3.4.0\selenium-support-3.4.0.jar;C:\Users\c5282596\.m2\repository\cglib\cglib-nodep\3.2.4\cglib-nodep-3.2.4.jar;C:\Users\c5282596\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\c5282596\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\c5282596\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\c5282596\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\c5282596\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\c5282596\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.22\cssparser-0.9.22.jar;C:\Users\c5282596\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\c5282596\.m2\repository\com\google\guava\guava\21.0\guava-21.0.jar;C:\Users\c5282596\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.26\htmlunit-core-js-2.26.jar;C:\Users\c5282596\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.25\neko-htmlunit-2.25.jar;C:\Users\c5282596\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\c5282596\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\c5282596\.m2\repository\org\eclipse\jetty\jetty-io\9.4.1.v20170120\jetty-io-9.4.1.v20170120.jar;C:\Users\c5282596\.m2\repository\org\eclipse\jetty\jetty-util\9.4.1.v20170120\jetty-util-9.4.1.v20170120.jar;C:\Users\c5282596\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Users\c5282596\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.26\htmlunit-driver-2.26.jar;C:\Users\c5282596\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.3.v20170317\websocket-api-9.4.3.v20170317.jar;C:\Users\c5282596\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.3.v20170317\websocket-client-9.4.3.v20170317.jar;C:\Users\c5282596\.m2\repository\org\eclipse\jetty\jetty-client\9.4.3.v20170317\jetty-client-9.4.3.v20170317.jar;C:\Users\c5282596\.m2\repository\org\eclipse\jetty\jetty-http\9.4.3.v20170317\jetty-http-9.4.3.v20170317.jar;C:\Users\c5282596\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.3.v20170317\websocket-common-9.4.3.v20170317.jar;C:\Users\c5282596\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\c5282596\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\c5282596\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\c5282596\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\c5282596\.m2\repository\javax\servlet\javax.servlet-api\3.0.1\javax.servlet-api-3.0.1.jar;C:\Users\c5282596\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\c5282596\.m2\repository\org\jsoup\jsoup\1.10.3\jsoup-1.10.3.jar;C:\Users\c5282596\.m2\repository\org\jetbrains\annotations-java5\16.0.2\annotations-java5-16.0.2.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.0.0-M5\maven-surefire-plugin-3.0.0-M5.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.0.0-M5\maven-surefire-common-3.0.0-M5.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0-M5\surefire-api-3.0.0-M5.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0-M5\surefire-logger-api-3.0.0-M5.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.0.0-M5\surefire-extensions-api-3.0.0-M5.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\surefire\surefire-booter\3.0.0-M5\surefire-booter-3.0.0-M5.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.0.0-M5\surefire-extensions-spi-3.0.0-M5.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\maven-toolchain\3.0-alpha-2\maven-toolchain-3.0-alpha-2.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\shared\maven-artifact-transfer\0.11.0\maven-artifact-transfer-0.11.0.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.0.1\maven-common-artifact-filters-3.0.1.jar;C:\Users\c5282596\.m2\repository\org\codehaus\plexus\plexus-java\1.0.5\plexus-java-1.0.5.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.0.0-M4\surefire-shared-utils-3.0.0-M4.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\plugins\maven-compiler-plugin\3.6.1\maven-compiler-plugin-3.6.1.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\maven-plugin-api\3.0\maven-plugin-api-3.0.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\maven-model\3.0\maven-model-3.0.jar;C:\Users\c5282596\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar;C:\Users\c5282596\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar;C:\Users\c5282596\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\maven-artifact\3.0\maven-artifact-3.0.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\maven-core\3.0\maven-core-3.0.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\maven-settings-builder\3.0\maven-settings-builder-3.0.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\maven-repository-metadata\3.0\maven-repository-metadata-3.0.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\maven-model-builder\3.0\maven-model-builder-3.0.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\maven-aether-provider\3.0\maven-aether-provider-3.0.jar;C:\Users\c5282596\.m2\repository\org\sonatype\aether\aether-impl\1.7\aether-impl-1.7.jar;C:\Users\c5282596\.m2\repository\org\sonatype\aether\aether-spi\1.7\aether-spi-1.7.jar;C:\Users\c5282596\.m2\repository\org\sonatype\aether\aether-api\1.7\aether-api-1.7.jar;C:\Users\c5282596\.m2\repository\org\sonatype\aether\aether-util\1.7\aether-util-1.7.jar;C:\Users\c5282596\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.14\plexus-interpolation-1.14.jar;C:\Users\c5282596\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.3\plexus-classworlds-2.2.3.jar;C:\Users\c5282596\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\c5282596\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar;C:\Users\c5282596\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.1.0\maven-shared-utils-3.1.0.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\shared\maven-shared-incremental\1.1\maven-shared-incremental-1.1.jar;C:\Users\c5282596\.m2\repository\org\ow2\asm\asm\6.0_ALPHA\asm-6.0_ALPHA.jar;C:\Users\c5282596\.m2\repository\com\thoughtworks\qdox\qdox\2.0-M5\qdox-2.0-M5.jar;C:\Users\c5282596\.m2\repository\org\codehaus\plexus\plexus-compiler-api\2.8.1\plexus-compiler-api-2.8.1.jar;C:\Users\c5282596\.m2\repository\org\codehaus\plexus\plexus-compiler-manager\2.8.1\plexus-compiler-manager-2.8.1.jar;C:\Users\c5282596\.m2\repository\org\codehaus\plexus\plexus-compiler-javac\2.8.1\plexus-compiler-javac-2.8.1.jar;C:\Users\c5282596\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\c5282596\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\c5282596\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.26\htmlunit-2.26.jar;C:\Users\c5282596\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\c5282596\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;C:\Users\c5282596\.m2\repository\org\slf4j\slf4j-simple\1.7.7\slf4j-simple-1.7.7.jar;C:\Users\c5282596\.m2\repository\org\slf4j\slf4j-api\1.7.7\slf4j-api-1.7.7.jar;C:\Users\c5282596\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\c5282596\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;C:\Users\c5282596\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.2.2\jackson-core-2.2.2.jar;C:\Users\c5282596\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.2.2\jackson-databind-2.2.2.jar;C:\Users\c5282596\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.2.2\jackson-annotations-2.2.2.jar;C:\Users\c5282596\.m2\repository\org\w3c\dom\2.3.0-jaxb-1.0.6\dom-2.3.0-jaxb-1.0.6.jar;C:\Users\c5282596\.m2\repository\sax\sax\2.0.1\sax-2.0.1.jar;C:\Users\c5282596\.m2\repository\org\json\json\20171018\json-20171018.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\selenium-htmlunit-driver\2.52.0\selenium-htmlunit-driver-2.52.0.jar;C:\Users\c5282596\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\c5282596\.m2\repository\com\codeborne\phantomjsdriver\1.4.4\phantomjsdriver-1.4.4.jar;C:\Users\c5282596\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\c5282596\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\c5282596\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\c5282596\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\c5282596\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\maven-settings\3.6.2\maven-settings-3.6.2.jar;C:\Users\c5282596\.m2\repository\org\codehaus\plexus\plexus-utils\3.2.1\plexus-utils-3.2.1.jar;C:\Temp\External_XPathes_DC_OHQ_100\out\artifacts\External_XPathes_DC_OHQ_100_jar\External_XPathes_DC_OHQ_100.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\c5282596"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-12.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Temp\PAT_DC_STD-Reversing-XSTU_OHQ_100"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\c5282596\AppData\Local\Temp\surefire11164017491935733464\surefirebooter8293671389330587913.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="12.0.2+10"/>
+    <property name="user.name" value="C5282596"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\c5282596\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\c5282596\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2022.3.1"/>
+    <property name="java.version" value="12.0.2"/>
+    <property name="user.dir" value="C:\Temp\PAT_DC_STD-Reversing-XSTU_OHQ_100"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-12.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\opscode\chef\bin\;C:\Program Files (x86)\Citrix\HDX\bin\;C:\Program Files\Citrix\HDX\bin\;C:\Program Files\SapMachine\JDK\17\bin;C:\Program Files\apache-maven-3.6.0\bin;C:\Users\c5282596\AppData\Local\Microsoft\WindowsApps;C:\Program Files\SapMachine\JDK\17\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\bin;C:\Users\c5282596\AppData\Local\Programs\Fiddler;C:\Users\c5282596\AppData\Local\Programs\Git\cmd;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="12.0.2+10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="56.0"/>
+  </properties>
+  <testcase name="openDataCollationPage_Testing[OHQ_100, STN](1)" classname="org.project.Test_Cases" time="64.903">
+    <system-out><![CDATA[Current System: OHQ_100
+2023-05-30 12:21:58 INFO  Waitings:334 - TOTAL TIME that the LOGIN or LANDING page was loading: 0.035 seconds.
+2023-05-30 12:22:08 INFO  LandingPage:2750 - The application was detected to have loaded WITH 'LOGIN' page.no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains (text(), 'Standard Data Collation')]"}
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ACSWDF004563', ip: '10.76.102.49', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}), userDataDir=C:\Users\c5282596\AppData\Local\Temp\scoped_dir11152_1710933833}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), webauthn:extension:minPinLength=true, goog:chromeOptions={debuggerAddress=localhost:55240}, webauthn:extension:credBlob=true, webauthn:extension:prf=true, acceptInsecureCerts=true, browserVersion=113.0.5672.127, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: fc6c96410535779a384a222d620d67d5
+*** Element info: {Using=xpath, value=//*[contains (text(), 'Standard Data Collation')]}
+The CLIENT input has the following value by default: 100
+2023-05-30 12:22:09 INFO  LandingPage:2779 - USERNAME was SUCCESSFULLY entered!
+2023-05-30 12:22:09 INFO  LandingPage:2789 - PASSWORD was SUCCESSFULLY entered!
+2023-05-30 12:22:09 INFO  LandingPage:2799 - LOG ON button was SUCCESSFULLY clicked!
+2023-05-30 12:22:09 INFO  Waitings:334 - TOTAL TIME that the After LOGON  page was loading: 0.108 seconds.
+2023-05-30 12:22:11 INFO  Waitings:119 - TOTAL TIME that the ENTIRE of DATA COLLATION PAGE page was loading: 1.072 seconds.
+Document Number: Empty
+Document Status: Empty
+2023-05-30 12:22:11 INFO  LandingPage:2852 - Document Number and Document Status fields are empty as expected.
+2023-05-30 12:22:11 INFO  LandingPage:2883 - HEADER DATA panel is open by default.
+2023-05-30 12:22:11 INFO  LandingPage:2911 - ITEM DATA panel is open by default.
+2023-05-30 12:22:11 INFO  LandingPage:2926 - PERSONOLIZED button on DATA COLLATION page was clicked.
+2023-05-30 12:22:12 INFO  Waitings:269 - TOTAL TIME that 'RESET TO DEFAULT DATA COLLATION PAGE' menu item page was loading: 0.03 seconds.
+2023-05-30 12:22:13 INFO  LandingPage:2724 - SET TO DEFAULT menu item was SUCCESSFULLY clicked on.
+2023-05-30 12:22:14 INFO  Waitings:119 - TOTAL TIME that the DATA COLLATION PAGE after clicking on 'SET TO DEFAULT' menu item on PERSONALIZATION dropdown page was loading: 1.086 seconds.
+2023-05-30 12:22:15 INFO  LandingPage:2693 - 'PERSONALIZATION' button on 'ITEM DATA' table was clicked SUCCESSFULLY.
+2023-05-30 12:22:16 INFO  Waitings:119 - TOTAL TIME that the PERSONALIZATION POPUP page was loading: 1.041 seconds.
+2023-05-30 12:22:17 INFO  Waitings:269 - TOTAL TIME that 'RESTORE' button -> SETTINGS' Popup page was loading: 0.026 seconds.
+2023-05-30 12:22:18 INFO  Waitings:269 - TOTAL TIME that 'MAXIMIZE' button -> SETTINGS' Popup page was loading: 0.021 seconds.
+Trimmed text (i.e. only digits are left) = 2727
+Trimmed text (i.e. only first 2 characters) = 27
+Number of TR elements on ADD ITEM -> SETTINGS popup: 27
+The height of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup is: 374
+2023-05-30 12:22:19 INFO  LandingPage:2552 - The height of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup is: 374
+The height of the vertical scroller in 'ADD ITEM -> SETTINGS' Popup is: 206
+2023-05-30 12:22:19 INFO  LandingPage:2560 - The height of the vertical scroller in 'ADD ITEM -> SETTINGS' Popup is: 206
+The movable space for the vertical scroller in 'ADD ITEM -> SETTINGS' Popup is: 168
+2023-05-30 12:22:19 INFO  LandingPage:2565 - The movable space for the vertical scroller in 'ADD ITEM -> SETTINGS' Popup is: 168
+2023-05-30 12:22:19 INFO  LandingPage:2570 - The offset for moving 1 row is: 12
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 248
+2023-05-30 12:22:19 INFO  LandingPage:2583 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 248
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 262
+2023-05-30 12:22:20 INFO  LandingPage:2595 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 262
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 262
+2023-05-30 12:22:20 INFO  LandingPage:2583 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 262
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 274
+2023-05-30 12:22:20 INFO  LandingPage:2595 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 274
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 274
+2023-05-30 12:22:20 INFO  LandingPage:2583 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 274
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 289
+2023-05-30 12:22:21 INFO  LandingPage:2595 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 289
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 289
+2023-05-30 12:22:21 INFO  LandingPage:2583 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 289
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 304
+2023-05-30 12:22:21 INFO  LandingPage:2595 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 304
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 304
+2023-05-30 12:22:21 INFO  LandingPage:2583 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 304
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 315
+2023-05-30 12:22:21 INFO  LandingPage:2595 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 315
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 315
+2023-05-30 12:22:21 INFO  LandingPage:2583 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 315
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 330
+2023-05-30 12:22:22 INFO  LandingPage:2595 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 330
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 330
+2023-05-30 12:22:22 INFO  LandingPage:2583 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 330
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 345
+2023-05-30 12:22:22 INFO  LandingPage:2595 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 345
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 345
+2023-05-30 12:22:22 INFO  LandingPage:2583 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 345
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 360
+2023-05-30 12:22:23 INFO  LandingPage:2595 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 360
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 360
+2023-05-30 12:22:23 INFO  LandingPage:2583 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 360
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 371
+2023-05-30 12:22:23 INFO  LandingPage:2595 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 371
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 371
+2023-05-30 12:22:23 INFO  LandingPage:2583 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 371
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 386
+2023-05-30 12:22:23 INFO  LandingPage:2595 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 386
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 386
+2023-05-30 12:22:23 INFO  LandingPage:2583 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 386
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 401
+2023-05-30 12:22:24 INFO  LandingPage:2595 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 401
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 401
+2023-05-30 12:22:24 INFO  LandingPage:2583 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 401
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 416
+2023-05-30 12:22:24 INFO  LandingPage:2595 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 416
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 416
+2023-05-30 12:22:24 INFO  LandingPage:2583 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 416
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 416
+2023-05-30 12:22:25 INFO  LandingPage:2595 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 416
+2023-05-30 12:22:25 INFO  Waitings:269 - TOTAL TIME that Last row in the 'ADD ITEM -> SETTINGS' Popup page was loading: 0.017 seconds.
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 416
+2023-05-30 12:22:26 INFO  LandingPage:2611 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 416
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 401
+2023-05-30 12:22:26 INFO  LandingPage:2624 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 401
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 401
+2023-05-30 12:22:26 INFO  LandingPage:2611 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 401
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 386
+2023-05-30 12:22:27 INFO  LandingPage:2624 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 386
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 386
+2023-05-30 12:22:27 INFO  LandingPage:2611 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 386
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 371
+2023-05-30 12:22:27 INFO  LandingPage:2624 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 371
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 371
+2023-05-30 12:22:27 INFO  LandingPage:2611 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 371
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 360
+2023-05-30 12:22:27 INFO  LandingPage:2624 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 360
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 360
+2023-05-30 12:22:27 INFO  LandingPage:2611 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 360
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 345
+2023-05-30 12:22:28 INFO  LandingPage:2624 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 345
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 345
+2023-05-30 12:22:28 INFO  LandingPage:2611 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 345
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 330
+2023-05-30 12:22:28 INFO  LandingPage:2624 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 330
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 330
+2023-05-30 12:22:28 INFO  LandingPage:2611 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 330
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 315
+2023-05-30 12:22:29 INFO  LandingPage:2624 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 315
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 315
+2023-05-30 12:22:29 INFO  LandingPage:2611 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 315
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 304
+2023-05-30 12:22:29 INFO  LandingPage:2624 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 304
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 304
+2023-05-30 12:22:29 INFO  LandingPage:2611 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 304
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 289
+2023-05-30 12:22:29 INFO  LandingPage:2624 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 289
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 289
+2023-05-30 12:22:29 INFO  LandingPage:2611 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 289
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 274
+2023-05-30 12:22:30 INFO  LandingPage:2624 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 274
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 274
+2023-05-30 12:22:30 INFO  LandingPage:2611 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 274
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 262
+2023-05-30 12:22:30 INFO  LandingPage:2624 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 262
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 262
+2023-05-30 12:22:30 INFO  LandingPage:2611 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 262
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 248
+2023-05-30 12:22:31 INFO  LandingPage:2624 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 248
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 248
+2023-05-30 12:22:31 INFO  LandingPage:2611 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup before next move is: 248
+The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 248
+2023-05-30 12:22:31 INFO  LandingPage:2624 - The Y-position of the vertical scroll bar in 'ADD ITEM -> SETTINGS' Popup after next move is: 248
+2023-05-30 12:22:31 INFO  Waitings:269 - TOTAL TIME that 'Item Status' row in the 'ADD ITEM -> SETTINGS' Popup page was loading: 0.019 seconds.
+2023-05-30 12:22:33 INFO  LandingPage:2640 - The offset for moving 1 row is: 12
+Row's title = Item Status
+2023-05-30 12:22:33 INFO  LandingPage:1282 - The 'Item Status' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-05-30 12:22:33 INFO  Waitings:240 - TOTAL TIME that 'Item Status' WIDTH field page was loading: 0.017 seconds.
+2023-05-30 12:22:34 INFO  LandingPage:1293 - Width for ITEM STATUS input field was SUCCESSFULLY changed.
+The class value for Item Status check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--checked 
+2023-05-30 12:22:34 INFO  LandingPage:1306 - ITEM STATUS input field was selected in the FIXED column BY DEFAULT.
+Row's title = Transfer Posting
+2023-05-30 12:22:34 INFO  LandingPage:1324 - The 'Transfer Posting' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-05-30 12:22:34 INFO  Waitings:240 - TOTAL TIME that 'Transfer Posting' WIDTH field page was loading: 0.017 seconds.
+2023-05-30 12:22:34 INFO  LandingPage:1335 - Width for TRANSFER POSTING input field was SUCCESSFULLY changed.
+The class value for Transfer Posting check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--checked 
+2023-05-30 12:22:34 INFO  LandingPage:1349 - TRANSFER POSTING input field was selected in the FIXED column BY DEFAULT.
+Row's title = Item Number
+2023-05-30 12:22:35 INFO  LandingPage:1367 - The 'Item Number' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-05-30 12:22:35 INFO  Waitings:240 - TOTAL TIME that 'Item Number' WIDTH field page was loading: 0.014 seconds.
+2023-05-30 12:22:35 INFO  LandingPage:1378 - Width for ITEM NUMBER input field was SUCCESSFULLY changed.
+The class value for Item Number check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--checked 
+2023-05-30 12:22:35 INFO  LandingPage:1392 - ITEM NUMBER input field was selected in the FIXED column BY DEFAULT.
+Row's title = Sequence Number of the Item
+2023-05-30 12:22:36 INFO  LandingPage:1411 - The 'Sequence Number of the Item' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-05-30 12:22:36 INFO  Waitings:240 - TOTAL TIME that 'Sequence Number of the Item' WIDTH field page was loading: 0.015 seconds.
+2023-05-30 12:22:36 INFO  LandingPage:1422 - Width for SEQUENCE NUMBER OF THE ITEM input field was SUCCESSFULLY changed.
+The class value for Sequence Number of the Item check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--checked 
+2023-05-30 12:22:36 INFO  LandingPage:1436 - SEQUENCE NUMBER OF THE ITEM input field was selected in the FIXED column BY DEFAULT.
+Row's title = Posting Sequence
+2023-05-30 12:22:37 INFO  LandingPage:1454 - The 'Posting Sequence' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-05-30 12:22:37 INFO  Waitings:240 - TOTAL TIME that 'Posting Sequence' WIDTH field page was loading: 0.014 seconds.
+2023-05-30 12:22:37 INFO  LandingPage:1465 - Width for POSTING SEQUENCE input field was SUCCESSFULLY changed.
+The class value for Posting Sequence check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--checked 
+2023-05-30 12:22:37 INFO  LandingPage:1479 - POSTING SEQUENCE input field was selected in the FIXED column BY DEFAULT.
+Row's title = Item Category
+2023-05-30 12:22:38 INFO  LandingPage:1498 - The 'Item Category' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-05-30 12:22:38 INFO  Waitings:240 - TOTAL TIME that 'Item Category' WIDTH field page was loading: 0.014 seconds.
+2023-05-30 12:22:38 INFO  LandingPage:1509 - Width for ITEM CATEGORY input field was SUCCESSFULLY changed.
+The class value for Item Category check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--checked 
+2023-05-30 12:22:38 INFO  LandingPage:1523 - ITEM CATEGORY input field was selected in the FIXED column BY DEFAULT.
+Row's title = Reference Document
+2023-05-30 12:22:39 INFO  LandingPage:1541 - The 'Reference Document' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-05-30 12:22:39 INFO  Waitings:240 - TOTAL TIME that 'Reference Document' WIDTH field page was loading: 0.014 seconds.
+2023-05-30 12:22:39 INFO  LandingPage:1552 - Width for REFERENCE DOCUMENT input field was SUCCESSFULLY changed.
+The class value for Reference Document check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked 
+2023-05-30 12:22:39 INFO  LandingPage:1566 - REFERENCE DOCUMENT input field was unselected in the FIXED column BY DEFAULT.
+Row's title = Reference Item
+2023-05-30 12:22:40 INFO  LandingPage:1585 - The 'Reference Item' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-05-30 12:22:40 INFO  Waitings:240 - TOTAL TIME that 'Reference Item' WIDTH field page was loading: 0.029 seconds.
+2023-05-30 12:22:40 INFO  LandingPage:1596 - Width for REFERENCE ITEM input field was SUCCESSFULLY changed.
+The class value for Reference Item check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked--disabled 
+2023-05-30 12:22:40 INFO  LandingPage:1610 - REFERENCE ITEM input field was unselected in the FIXED column BY DEFAULT.
+Row's title = Material
+2023-05-30 12:22:41 INFO  LandingPage:1629 - The 'Material' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-05-30 12:22:41 INFO  Waitings:240 - TOTAL TIME that 'Material' WIDTH field page was loading: 0.013 seconds.
+2023-05-30 12:22:41 INFO  LandingPage:1640 - Width for MATERIAL input field was SUCCESSFULLY changed.
+The class value for Material check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked--disabled 
+2023-05-30 12:22:41 INFO  LandingPage:1654 - MATERIAL ITEM input field was unselected in the FIXED column BY DEFAULT.
+Row's title = Material description
+2023-05-30 12:22:42 INFO  LandingPage:1672 - The 'Material description' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-05-30 12:22:42 INFO  Waitings:240 - TOTAL TIME that 'Material description' WIDTH field page was loading: 0.014 seconds.
+2023-05-30 12:22:42 INFO  LandingPage:1683 - Width for MATERIAL DESCRIPTION input field was SUCCESSFULLY changed.
+The class value for Material description check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked--disabled 
+2023-05-30 12:22:42 INFO  LandingPage:1697 - MATERIAL DESCRIPTION input field was unselected in the FIXED column BY DEFAULT.
+Row's title = Quantity
+2023-05-30 12:22:43 INFO  LandingPage:1715 - The 'Quantity' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-05-30 12:22:43 INFO  Waitings:240 - TOTAL TIME that 'Quantity' WIDTH field page was loading: 0.027 seconds.
+2023-05-30 12:22:43 INFO  LandingPage:1726 - Width for QUANTITY input field was SUCCESSFULLY changed.
+The class value for Quantity check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked--disabled 
+2023-05-30 12:22:43 INFO  LandingPage:1740 - QUANTITY input field was unselected in the FIXED column BY DEFAULT.
+Row's title = Base Unit of Measure
+2023-05-30 12:22:44 INFO  LandingPage:1759 - The 'Base Unit of Measure' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-05-30 12:22:44 INFO  Waitings:240 - TOTAL TIME that 'Base Unit of Measure' WIDTH field page was loading: 0.015 seconds.
+2023-05-30 12:22:44 INFO  LandingPage:1770 - Width for BASE UNIT OF MEASURE input field was SUCCESSFULLY changed.
+The class value for Base Unit of Measure check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked--disabled 
+2023-05-30 12:22:44 INFO  LandingPage:1784 - BASE UNIT OF MEASURE input field was unselected in the FIXED column BY DEFAULT.
+Row's title = Plant
+2023-05-30 12:22:45 INFO  LandingPage:1802 - The 'Plant' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-05-30 12:22:45 INFO  Waitings:240 - TOTAL TIME that 'Plant' WIDTH field page was loading: 0.014 seconds.
+2023-05-30 12:22:45 INFO  LandingPage:1813 - Width for PLANT input field was SUCCESSFULLY changed.
+The class value for Plant check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked--disabled 
+2023-05-30 12:22:45 INFO  LandingPage:1827 - PLANT input field was unselected in the FIXED column BY DEFAULT.
+Row's title = Storage location
+2023-05-30 12:22:46 INFO  LandingPage:1844 - The 'Storage location' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-05-30 12:22:46 INFO  Waitings:240 - TOTAL TIME that 'Storage location' WIDTH field page was loading: 0.014 seconds.
+2023-05-30 12:22:46 INFO  LandingPage:1855 - Width for STORAGE LOCATION input field was SUCCESSFULLY changed.
+The class value for Storage location check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked--disabled 
+2023-05-30 12:22:46 INFO  LandingPage:1869 - STORAGE LOCATION input field was unselected in the FIXED column BY DEFAULT.
+Row's title = Valuation Type
+2023-05-30 12:22:47 INFO  LandingPage:1887 - The 'Valuation Type' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-05-30 12:22:47 INFO  Waitings:240 - TOTAL TIME that 'Valuation Type' WIDTH field page was loading: 0.014 seconds.
+2023-05-30 12:22:47 INFO  LandingPage:1898 - Width for VALUATION TYPE input field was SUCCESSFULLY changed.
+The class value for Valuation Type check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked--disabled 
+2023-05-30 12:22:47 INFO  LandingPage:1912 - VALUATION TYPE input field was unselected in the FIXED column BY DEFAULT.
+Row's title = Handling Type
+2023-05-30 12:22:48 INFO  LandingPage:1930 - The 'Handling Type' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-05-30 12:22:48 INFO  Waitings:240 - TOTAL TIME that 'Handling Type' WIDTH field page was loading: 0.012 seconds.
+2023-05-30 12:22:48 INFO  LandingPage:1941 - Width for HANDLING TYPE input field was SUCCESSFULLY changed.
+The class value for Handling Type check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked--disabled 
+2023-05-30 12:22:48 INFO  LandingPage:1955 - HANDLING TYPE input field was unselected in the FIXED column BY DEFAULT.
+Row's title = Posting Date
+2023-05-30 12:22:49 INFO  LandingPage:1973 - The 'Posting Date' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-05-30 12:22:49 INFO  Waitings:240 - TOTAL TIME that 'Posting Date' WIDTH field page was loading: 0.013 seconds.
+2023-05-30 12:22:49 INFO  LandingPage:1984 - Width for POSTING DATE input field was SUCCESSFULLY changed.
+The class value for Posting Date check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked--disabled 
+2023-05-30 12:22:49 INFO  LandingPage:1998 - POSTING DATE input field was unselected in the FIXED column BY DEFAULT.
+Row's title = Tank number
+2023-05-30 12:22:50 INFO  LandingPage:2016 - The 'Tank number' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-05-30 12:22:50 INFO  Waitings:240 - TOTAL TIME that 'Tank number' WIDTH field page was loading: 0.014 seconds.
+2023-05-30 12:22:50 INFO  LandingPage:2027 - Width for TANK NUMBER input field was SUCCESSFULLY changed.
+The class value for Tank number check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked--disabled 
+2023-05-30 12:22:50 INFO  LandingPage:2040 - TANK NUMBER input field was unselected in the FIXED column BY DEFAULT.
+Row's title = Partner Function
+2023-05-30 12:22:51 INFO  LandingPage:2058 - The 'Partner Function' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-05-30 12:22:51 INFO  Waitings:240 - TOTAL TIME that 'Partner Function' WIDTH field page was loading: 0.013 seconds.
+2023-05-30 12:22:51 INFO  LandingPage:2069 - Width for PARTNER FUNCTION input field was SUCCESSFULLY changed.
+The class value for Partner Function check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked--disabled 
+2023-05-30 12:22:51 INFO  LandingPage:2083 - PARTNER FUNCTION input field was unselected in the FIXED column BY DEFAULT.
+Row's title = Partners
+2023-05-30 12:22:52 INFO  LandingPage:2101 - The 'Partners' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-05-30 12:22:52 INFO  Waitings:240 - TOTAL TIME that 'Partners' WIDTH field page was loading: 0.013 seconds.
+2023-05-30 12:22:52 INFO  LandingPage:2113 - Width for PARTNERS input field was SUCCESSFULLY changed.
+The class value for Partners check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked--disabled 
+2023-05-30 12:22:52 INFO  LandingPage:2127 - PARTNERS input field was unselected in the FIXED column BY DEFAULT.
+Row's title = Net Price
+2023-05-30 12:22:53 INFO  LandingPage:2145 - The 'Net Price' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-05-30 12:22:53 INFO  Waitings:240 - TOTAL TIME that 'Net Price' WIDTH field page was loading: 0.014 seconds.
+2023-05-30 12:22:53 INFO  LandingPage:2156 - Width for NET PRICE input field was SUCCESSFULLY changed.
+The class value for Net Price check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked--disabled 
+2023-05-30 12:22:53 INFO  LandingPage:2170 - NET PRICE input field was unselected in the FIXED column BY DEFAULT.
+Row's title = Currency
+2023-05-30 12:22:54 INFO  LandingPage:2188 - The 'Currency' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-05-30 12:22:54 INFO  Waitings:240 - TOTAL TIME that 'Currency' WIDTH field page was loading: 0.014 seconds.
+2023-05-30 12:22:54 INFO  LandingPage:2199 - Width for CURRENCY input field was SUCCESSFULLY changed.
+The class value for Currency check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked--disabled 
+2023-05-30 12:22:54 INFO  LandingPage:2213 - CURRENCY input field was unselected in the FIXED column BY DEFAULT.
+Row's title = Pricing Unit
+2023-05-30 12:22:55 INFO  LandingPage:2231 - The 'Pricing Unit' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-05-30 12:22:55 INFO  Waitings:240 - TOTAL TIME that 'Pricing Unit' WIDTH field page was loading: 0.013 seconds.
+2023-05-30 12:22:55 INFO  LandingPage:2242 - Width for PRICING UNIT input field was SUCCESSFULLY changed.
+The class value for Pricing Unit check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked--disabled 
+2023-05-30 12:22:55 INFO  LandingPage:2256 - PRICING UNIT input field was unselected in the FIXED column BY DEFAULT.
+Row's title = Unit of Measure
+2023-05-30 12:22:56 INFO  LandingPage:2274 - The 'Unit of Measure' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-05-30 12:22:56 INFO  Waitings:240 - TOTAL TIME that 'Unit of Measure' WIDTH field page was loading: 0.014 seconds.
+2023-05-30 12:22:56 INFO  LandingPage:2285 - Width for UNIT OF MEASURE input field was SUCCESSFULLY changed.
+The class value for Unit of Measure check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked--disabled 
+2023-05-30 12:22:56 INFO  LandingPage:2299 - UNIT OF MEASURE input field was unselected in the FIXED column BY DEFAULT.
+Row's title = Quantity in Percent
+2023-05-30 12:22:57 INFO  LandingPage:2317 - The 'Quantity in Percent' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-05-30 12:22:57 INFO  Waitings:240 - TOTAL TIME that 'Quantity in Percent' WIDTH field page was loading: 0.013 seconds.
+2023-05-30 12:22:57 INFO  LandingPage:2328 - Width for QUANTITY IN PERCENT input field was SUCCESSFULLY changed.
+The class value for Quantity in Percent check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked--disabled 
+2023-05-30 12:22:57 INFO  LandingPage:2342 - QUANTITY IN PERCENT input field was unselected in the FIXED column BY DEFAULT.
+Row's title = Stock
+2023-05-30 12:22:58 INFO  LandingPage:2360 - The 'Stock' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-05-30 12:22:58 INFO  Waitings:240 - TOTAL TIME that 'Stock' WIDTH field page was loading: 0.015 seconds.
+2023-05-30 12:22:58 INFO  LandingPage:2371 - Width for STOCK input field was SUCCESSFULLY changed.
+The class value for Stock check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked--disabled 
+2023-05-30 12:22:58 INFO  LandingPage:2385 - STOCK input field was unselected in the FIXED column BY DEFAULT.
+Row's title = UoM for Quantity from Dipping
+2023-05-30 12:22:59 INFO  LandingPage:2403 - The 'UoM for Quantity from Dipping' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-05-30 12:22:59 INFO  Waitings:240 - TOTAL TIME that 'UoM for Quantity from Dipping' WIDTH field page was loading: 0.014 seconds.
+2023-05-30 12:22:59 INFO  LandingPage:2414 - Width for UOM FOR QUANTITY FROM DIPPING input field was SUCCESSFULLY changed.
+The class value for UoM for Quantity from Dipping check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked 
+2023-05-30 12:22:59 INFO  LandingPage:2428 - UOM FOR QUANTITY FROM DIPPING input field was unselected in the FIXED column BY DEFAULT.
+2023-05-30 12:22:59 INFO  LandingPage:1248 - The 'OK' button (on 'PERSONALIZATION' popup) was clicked to save Default Settings.
+2023-05-30 12:23:01 INFO  Waitings:119 - TOTAL TIME that the DATA COLLATION PAGE after closing PERSONALIZATION popup page was loading: 1.072 seconds.
+2023-05-30 12:23:02 INFO  Graphics_Screenshots:48 - EMPTY DATA COLLATION PAGE window screenshot was made. 
+CLASS for the FIRST ROW of ADD ITEM table is: presentation
+2023-05-30 12:23:02 WARN  LandingPage:1213 - The 'Add Item' table is EMPTY.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 30437
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1685442117.616][WARNING]: This version of ChromeDriver has not been tested with Chrome version 113.
+May 30, 2023 12:21:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="add_NewItemRow_Testing" classname="org.project.Test_Cases" time="1.43">
+    <system-out><![CDATA[Class text of NEW button: lsButton lsButton--base urInlineMetricTop urNoUserSelect urBtnRadius  lsButton--useintoolbar  lsButton--active  lsButton--focusable  lsButton--up lsButton--design-standard 
+2023-05-30 12:23:02 INFO  LandingPage:1164 - Button 'NEW' is in ENABLED status.
+2023-05-30 12:23:02 INFO  LandingPage:1140 - 'NEW' button was clicked on the main toolbar.
+2023-05-30 12:23:03 INFO  Waitings:269 - TOTAL TIME that Editable HEADER DATA Table page was loading: 0.534 seconds.
+Class text of NEW button: lsButton lsButton--base urInlineMetricTop urNoUserSelect urBtnRadius  lsButton--useintoolbar  lsButton--up lsButton--design-standard  lsButton--disabled
+2023-05-30 12:23:03 WARN  LandingPage:1166 - Button 'NEW' is in DISABLED status.
+Class of ADD ITEM button: lsButton lsButton--base urInlineMetricTop urNoUserSelect urBtnRadius  lsButton--onlyImage  lsButton--useintoolbar  lsButton--toolbar-image  lsButton--active  lsButton--focusable  urBtnImgBgColor  lsButton--up lsButton--design-standard 
+2023-05-30 12:23:03 INFO  LandingPage:1118 - Button 'ADD ITEM' is in ENABLED status.
+CLASS for the FIRST ROW of ADD ITEM table is: presentation
+2023-05-30 12:23:03 WARN  LandingPage:1213 - The 'Add Item' table is EMPTY.
+2023-05-30 12:23:03 INFO  Test_Cases:203 - 'ADD ITEM' button was clicked because the 'ITEM DATA' table has NO editable rows yet.
+2023-05-30 12:23:03 INFO  AddItemTable:2851 - Browser window height is 873 pixels
+2023-05-30 12:23:03 INFO  AddItemTable:2863 - ADD ITEM Table width is 1862 pixels
+2023-05-30 12:23:03 INFO  AddItemTable:2871 - MATERIAL element's Position from left side is: 886 pixels.
+2023-05-30 12:23:03 INFO  AddItemTable:2875 - MATERIAL element's Position from top is: 331 pixels.
+2023-05-30 12:23:03 INFO  AddItemTable:2879 - MATERIAL element width is 62 pixels
+2023-05-30 12:23:03 INFO  AddItemTable:2883 - MATERIAL element height Is 32 pixels
+2023-05-30 12:23:03 INFO  AddItemTable:2887 - MATERIAL end coordinate of Web element on X axis is: 948
+2023-05-30 12:23:03 INFO  AddItemTable:2891 - MATERIAL end coordinate of Web element on Y axis is: 363
+2023-05-30 12:23:03 INFO  AddItemTable:2950 - Material Element is completelly visible in the view port.
+2023-05-30 12:23:04 INFO  Waitings:240 - TOTAL TIME that Editable first row of ADD ITEM Table - 'LEFT part' page was loading: 0.453 seconds.
+2023-05-30 12:23:04 INFO  Waitings:240 - TOTAL TIME that Editable first row of ADD ITEM Table - 'RIGHT part' page was loading: 0.031 seconds.
+]]></system-out>
+  </testcase>
+  <testcase name="fill_in_NewItemFields_Testing" classname="org.project.Test_Cases" time="0.06">
+    <system-out><![CDATA[Document Number: Empty
+Document Status: AIn Processing
+Document Status first letter: A
+2023-05-30 12:23:04 INFO  LandingPage:1046 - Document Status field is in 'A' status as expected.
+]]></system-out>
+  </testcase>
+  <testcase name="fill_in_ItemCategory_Testing[STN](1)" classname="org.project.Test_Cases" time="13.649">
+    <system-out><![CDATA[Number of columns in the LEFT part: 9
+Counter of Needed columns in the LEFT part of ADD ITEM table: 0
+Counter of Needed columns in the LEFT part of ADD ITEM table: 0
+SPAN element Text in the LEFT part: Item Status
+	
+ 
+Counter of Needed columns in the LEFT part of ADD ITEM table: 0
+SPAN element Text in the LEFT part: Transfer Posting
+	
+ 
+Counter of Needed columns in the LEFT part of ADD ITEM table: 0
+SPAN element Text in the LEFT part: Item Number
+		
+ 
+Counter of Needed columns in the LEFT part of ADD ITEM table: 0
+SPAN element Text in the LEFT part: Sequence Number of the Item
+	
+ 
+Counter of Needed columns in the LEFT part of ADD ITEM table: 0
+SPAN element Text in the LEFT part: Posting Sequence
+	
+		
+ 
+Counter of Needed columns in the LEFT part of ADD ITEM table: 0
+SPAN element Text in the LEFT part: Item Category
+	
+ 
+2023-05-30 12:23:15 INFO  Waitings:477 - TOTAL TIME that the RIGHT PART of ADD ITEM TABLE was observed for changing its status: 1.075 seconds.
+]]></system-out>
+  </testcase>
+  <testcase name="fill_in_RightPartOfTable_Testing[GP02, GPU, GPUR, G2L1, OGSD_200, 100, GP01, G1L1, UNTAX, 99, Gasoil, L15, null, null](1)" classname="org.project.Test_Cases" time="24.171">
+    <system-out><![CDATA[The lenght of the horizontal scroll bar in the right part of the 'ADD ITEM' table is: 1200
+2023-05-30 12:23:17 INFO  AddItemTable:2312 - The lenght of the horizontal scroll bar in the right part of the 'ADD ITEM' table is: 1200
+The X-position of the horizontal scroller in 'ADD ITEM' table is: 663
+2023-05-30 12:23:17 INFO  AddItemTable:2320 - The X-position of the vertical scroller in 'ADD ITEM' table is: 663
+The length of the horizontal scroller in 'ADD ITEM' table is: 768
+2023-05-30 12:23:17 INFO  AddItemTable:2325 - The length of the horizontal scroller in 'ADD ITEM' table is: 768
+The movable space for the horizontal scroller in 'ADD ITEM' table is: 432
+2023-05-30 12:23:17 INFO  AddItemTable:2330 - The movable space for the horizontal scroller in 'ADD ITEM' table is: 432
+2023-05-30 12:23:18 INFO  Waitings:269 - TOTAL TIME that Right-most column is reached in the 'ADD ITEM' table page was loading: 0.047 seconds.
+Number of columns in the RIGHT part: 21
+Counter of Needed columns in the RIGHT part of ADD ITEM table: 1
+SPAN element Text in the RIGHT part: Reference Document
+	
+ 
+Counter of Needed columns in the RIGHT part of ADD ITEM table: 1
+SPAN element Text in the RIGHT part: Reference Item
+	
+ 
+Counter of Needed columns in the RIGHT part of ADD ITEM table: 1
+SPAN element Text in the RIGHT part: Material
+	
+ 
+2023-05-30 12:23:21 INFO  AddItemTable:2851 - Browser window height is 873 pixels
+2023-05-30 12:23:21 INFO  AddItemTable:2863 - ADD ITEM Table width is 1862 pixels
+2023-05-30 12:23:22 INFO  AddItemTable:2871 - MATERIAL element's Position from left side is: 886 pixels.
+2023-05-30 12:23:22 INFO  AddItemTable:2875 - MATERIAL element's Position from top is: 331 pixels.
+2023-05-30 12:23:22 INFO  AddItemTable:2879 - MATERIAL element width is 62 pixels
+2023-05-30 12:23:22 INFO  AddItemTable:2883 - MATERIAL element height Is 32 pixels
+2023-05-30 12:23:22 INFO  AddItemTable:2887 - MATERIAL end coordinate of Web element on X axis is: 948
+2023-05-30 12:23:22 INFO  AddItemTable:2891 - MATERIAL end coordinate of Web element on Y axis is: 363
+2023-05-30 12:23:22 INFO  AddItemTable:2950 - Material Element is completelly visible in the view port.
+2023-05-30 12:23:22 INFO  Waitings:477 - TOTAL TIME that the Enabled MATERIAL field was observed for changing its status: 0.028 seconds.
+2023-05-30 12:23:22 INFO  AddItemTable:2441 - MATERIAL input field is SUCCESSFULLY filled in.
+Counter of Needed columns in the RIGHT part of ADD ITEM table: 2
+SPAN element Text in the RIGHT part: Material description
+	
+ 
+Counter of Needed columns in the RIGHT part of ADD ITEM table: 2
+SPAN element Text in the RIGHT part: Quantity
+	
+ 
+2023-05-30 12:23:22 INFO  AddItemTable:2851 - Browser window height is 873 pixels
+2023-05-30 12:23:22 INFO  AddItemTable:2863 - ADD ITEM Table width is 1862 pixels
+2023-05-30 12:23:22 INFO  AddItemTable:2871 - QUANTITY element's Position from left side is: 1076 pixels.
+2023-05-30 12:23:22 INFO  AddItemTable:2875 - QUANTITY element's Position from top is: 299 pixels.
+2023-05-30 12:23:22 INFO  AddItemTable:2879 - QUANTITY element width is 72 pixels
+2023-05-30 12:23:22 INFO  AddItemTable:2883 - QUANTITY element height Is 32 pixels
+2023-05-30 12:23:22 INFO  AddItemTable:2887 - QUANTITY end coordinate of Web element on X axis is: 1148
+2023-05-30 12:23:22 INFO  AddItemTable:2891 - QUANTITY end coordinate of Web element on Y axis is: 331
+2023-05-30 12:23:22 INFO  AddItemTable:2950 - Quantity Element is completelly visible in the view port.
+2023-05-30 12:23:22 INFO  Waitings:477 - TOTAL TIME that the Enabled QUANTITY field was observed for changing its status: 0.033 seconds.
+2023-05-30 12:23:22 INFO  AddItemTable:2851 - Browser window height is 873 pixels
+2023-05-30 12:23:22 INFO  AddItemTable:2863 - ADD ITEM Table width is 1862 pixels
+2023-05-30 12:23:22 INFO  AddItemTable:2871 - QUANTITY element's Position from left side is: 1076 pixels.
+2023-05-30 12:23:22 INFO  AddItemTable:2875 - QUANTITY element's Position from top is: 299 pixels.
+2023-05-30 12:23:22 INFO  AddItemTable:2879 - QUANTITY element width is 72 pixels
+2023-05-30 12:23:22 INFO  AddItemTable:2883 - QUANTITY element height Is 32 pixels
+2023-05-30 12:23:22 INFO  AddItemTable:2887 - QUANTITY end coordinate of Web element on X axis is: 1148
+2023-05-30 12:23:22 INFO  AddItemTable:2891 - QUANTITY end coordinate of Web element on Y axis is: 331
+2023-05-30 12:23:22 INFO  AddItemTable:2950 - Quantity Element is completelly visible in the view port.
+2023-05-30 12:23:22 INFO  AddItemTable:2478 - QUANTITY input field is SUCCESSFULLY filled in.
+Counter of Needed columns in the RIGHT part of ADD ITEM table: 3
+SPAN element Text in the RIGHT part: Base Unit of Measure
+	
+ 
+Counter of Needed columns in the RIGHT part of ADD ITEM table: 3
+SPAN element Text in the RIGHT part: Plant
+	
+ 
+2023-05-30 12:23:23 INFO  AddItemTable:2851 - Browser window height is 873 pixels
+2023-05-30 12:23:23 INFO  AddItemTable:2863 - ADD ITEM Table width is 1862 pixels
+2023-05-30 12:23:23 INFO  AddItemTable:2871 - PLANT element's Position from left side is: 1278 pixels.
+2023-05-30 12:23:23 INFO  AddItemTable:2875 - PLANT element's Position from top is: 299 pixels.
+2023-05-30 12:23:23 INFO  AddItemTable:2879 - PLANT element width is 60 pixels
+2023-05-30 12:23:23 INFO  AddItemTable:2883 - PLANT element height Is 32 pixels
+2023-05-30 12:23:23 INFO  AddItemTable:2887 - PLANT end coordinate of Web element on X axis is: 1338
+2023-05-30 12:23:23 INFO  AddItemTable:2891 - PLANT end coordinate of Web element on Y axis is: 331
+2023-05-30 12:23:23 INFO  AddItemTable:2950 - Plant Element is completelly visible in the view port.
+2023-05-30 12:23:23 INFO  Waitings:477 - TOTAL TIME that the Enabled PLANT field was observed for changing its status: 0.03 seconds.
+2023-05-30 12:23:23 INFO  AddItemTable:2516 - PLANT input field is SUCCESSFULLY filled in.
+Counter of Needed columns in the RIGHT part of ADD ITEM table: 4
+SPAN element Text in the RIGHT part: Storage location
+	
+ 
+2023-05-30 12:23:23 INFO  AddItemTable:2851 - Browser window height is 873 pixels
+2023-05-30 12:23:23 INFO  AddItemTable:2863 - ADD ITEM Table width is 1862 pixels
+2023-05-30 12:23:23 INFO  AddItemTable:2871 - STORAGE LOCATION element's Position from left side is: 1340 pixels.
+2023-05-30 12:23:23 INFO  AddItemTable:2875 - STORAGE LOCATION element's Position from top is: 299 pixels.
+2023-05-30 12:23:23 INFO  AddItemTable:2879 - STORAGE LOCATION element width is 104 pixels
+2023-05-30 12:23:23 INFO  AddItemTable:2883 - STORAGE LOCATION element height Is 32 pixels
+2023-05-30 12:23:23 INFO  AddItemTable:2887 - STORAGE LOCATION end coordinate of Web element on X axis is: 1444
+2023-05-30 12:23:23 INFO  AddItemTable:2891 - STORAGE LOCATION end coordinate of Web element on Y axis is: 331
+2023-05-30 12:23:23 INFO  AddItemTable:2950 - Storage location Element is completelly visible in the view port.
+2023-05-30 12:23:23 INFO  Waitings:477 - TOTAL TIME that the Enabled STORAGE LOCATION field was observed for changing its status: 0.032 seconds.
+2023-05-30 12:23:23 INFO  AddItemTable:2553 - STORAGE LOCATION input field is SUCCESSFULLY filled in.
+Counter of Needed columns in the RIGHT part of ADD ITEM table: 5
+SPAN element Text in the RIGHT part: Valuation Type
+	
+ 
+2023-05-30 12:23:23 INFO  AddItemTable:2851 - Browser window height is 873 pixels
+2023-05-30 12:23:23 INFO  AddItemTable:2863 - ADD ITEM Table width is 1862 pixels
+2023-05-30 12:23:24 INFO  AddItemTable:2871 - VALUATION TYPE element's Position from left side is: 1446 pixels.
+2023-05-30 12:23:24 INFO  AddItemTable:2875 - VALUATION TYPE element's Position from top is: 299 pixels.
+2023-05-30 12:23:24 INFO  AddItemTable:2879 - VALUATION TYPE element width is 93 pixels
+2023-05-30 12:23:24 INFO  AddItemTable:2883 - VALUATION TYPE element height Is 32 pixels
+2023-05-30 12:23:24 INFO  AddItemTable:2887 - VALUATION TYPE end coordinate of Web element on X axis is: 1539
+2023-05-30 12:23:24 INFO  AddItemTable:2891 - VALUATION TYPE end coordinate of Web element on Y axis is: 331
+2023-05-30 12:23:24 INFO  AddItemTable:2950 - Valuation Type Element is completelly visible in the view port.
+2023-05-30 12:23:24 INFO  Waitings:477 - TOTAL TIME that the Enabled VALUATION TYPE field was observed for changing its status: 0.031 seconds.
+2023-05-30 12:23:24 INFO  AddItemTable:2590 - VALUATION TYPE input field is SUCCESSFULLY filled in.
+Counter of Needed columns in the RIGHT part of ADD ITEM table: 6
+SPAN element Text in the RIGHT part: Handling Type
+	
+ 
+2023-05-30 12:23:24 INFO  AddItemTable:2851 - Browser window height is 873 pixels
+2023-05-30 12:23:24 INFO  AddItemTable:2863 - ADD ITEM Table width is 1862 pixels
+2023-05-30 12:23:24 INFO  AddItemTable:2871 - HANDLING TYPE element's Position from left side is: 1541 pixels.
+2023-05-30 12:23:24 INFO  AddItemTable:2875 - HANDLING TYPE element's Position from top is: 299 pixels.
+2023-05-30 12:23:24 INFO  AddItemTable:2879 - HANDLING TYPE element width is 93 pixels
+2023-05-30 12:23:24 INFO  AddItemTable:2883 - HANDLING TYPE element height Is 32 pixels
+2023-05-30 12:23:24 INFO  AddItemTable:2887 - HANDLING TYPE end coordinate of Web element on X axis is: 1634
+2023-05-30 12:23:24 INFO  AddItemTable:2891 - HANDLING TYPE end coordinate of Web element on Y axis is: 331
+2023-05-30 12:23:24 INFO  AddItemTable:2950 - Handling Type Element is completelly visible in the view port.
+2023-05-30 12:23:24 INFO  Waitings:477 - TOTAL TIME that the Enabled HANDLING TYPE field was observed for changing its status: 0.031 seconds.
+Number of columns in the RIGHT part: 21
+Counter of Needed columns: 1
+SPAN element Text in the RIGHT part: Reference Document
+	
+ 
+Counter of Needed columns: 1
+SPAN element Text in the RIGHT part: Reference Item
+	
+ 
+Counter of Needed columns: 1
+SPAN element Text in the RIGHT part: Material
+	
+ 
+Counter of Needed columns: 1
+SPAN element Text in the RIGHT part: Material description
+	
+ 
+2023-05-30 12:23:26 INFO  AddItemTable:2851 - Browser window height is 873 pixels
+2023-05-30 12:23:26 INFO  AddItemTable:2863 - ADD ITEM Table width is 1862 pixels
+2023-05-30 12:23:27 INFO  AddItemTable:2871 - MATERIAL DESCRIPTION element's Position from left side is: 950 pixels.
+2023-05-30 12:23:27 INFO  AddItemTable:2875 - MATERIAL DESCRIPTION element's Position from top is: 299 pixels.
+2023-05-30 12:23:27 INFO  AddItemTable:2879 - MATERIAL DESCRIPTION element width is 124 pixels
+2023-05-30 12:23:27 INFO  AddItemTable:2883 - MATERIAL DESCRIPTION element height Is 32 pixels
+2023-05-30 12:23:27 INFO  AddItemTable:2887 - MATERIAL DESCRIPTION end coordinate of Web element on X axis is: 1074
+2023-05-30 12:23:27 INFO  AddItemTable:2891 - MATERIAL DESCRIPTION end coordinate of Web element on Y axis is: 331
+2023-05-30 12:23:27 INFO  AddItemTable:2950 - Material description Element is completelly visible in the view port.
+2023-05-30 12:23:27 INFO  AddItemTable:2259 - MATERIAL DESCRIPTION input field is AUTOFILLED with the value 'Heating Oil'.
+Counter of Needed columns: 2
+SPAN element Text in the RIGHT part: Quantity
+	
+ 
+Counter of Needed columns: 2
+SPAN element Text in the RIGHT part: Base Unit of Measure
+	
+ 
+2023-05-30 12:23:27 INFO  AddItemTable:2851 - Browser window height is 873 pixels
+2023-05-30 12:23:27 INFO  AddItemTable:2863 - ADD ITEM Table width is 1862 pixels
+2023-05-30 12:23:27 INFO  AddItemTable:2871 - BASE UNIT OF MEASURE element's Position from left side is: 1150 pixels.
+2023-05-30 12:23:27 INFO  AddItemTable:2875 - BASE UNIT OF MEASURE element's Position from top is: 299 pixels.
+2023-05-30 12:23:27 INFO  AddItemTable:2879 - BASE UNIT OF MEASURE element width is 126 pixels
+2023-05-30 12:23:27 INFO  AddItemTable:2883 - BASE UNIT OF MEASURE element height Is 32 pixels
+2023-05-30 12:23:27 INFO  AddItemTable:2887 - BASE UNIT OF MEASURE end coordinate of Web element on X axis is: 1276
+2023-05-30 12:23:27 INFO  AddItemTable:2891 - BASE UNIT OF MEASURE end coordinate of Web element on Y axis is: 331
+2023-05-30 12:23:27 INFO  AddItemTable:2950 - Base Unit of Measure Element is completelly visible in the view port.
+2023-05-30 12:23:27 INFO  AddItemTable:2284 - BASE UNIT OF MEASURE input field is AUTOFILLED with the value 'L15'.
+2023-05-30 12:23:28 INFO  Waitings:269 - TOTAL TIME that DETAIL DATA Section page was loading: 0.633 seconds.
+ARIA-EXPANDED value for DATA DETAILS section: true
+2023-05-30 12:23:28 INFO  Waitings:269 - TOTAL TIME that PURCHASING TAB Content page was loading: 0.044 seconds.
+2023-05-30 12:23:30 INFO  Waitings:269 - TOTAL TIME that PURCHASING TAB Content page was loading: 0.019 seconds.
+2023-05-30 12:23:31 INFO  Waitings:186 - TOTAL TIME that the INPUT 'SUPPLYING PLANT' EDITABLE web-element was loading: 0.031 seconds.
+2023-05-30 12:23:31 INFO  AddItemTable:2133 - SUPPLYING PLANT input field is SUCCESSFULLY filled in.
+Status for 'Stock Transfer in Stock in Transit' check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsCheckBox--unchecked 
+2023-05-30 12:23:32 INFO  AddItemTable:2104 - STOCK TRANSFER IN STOCK IN TRANSIT check-box is SUCCESSFULLY selected.
+2023-05-30 12:23:34 INFO  Waitings:186 - TOTAL TIME that the INPUT 'PURCHASING GROUP' EDITABLE web-element was loading: 0.063 seconds.
+2023-05-30 12:23:34 INFO  AddItemTable:2086 - PURCHASING GROUP input field is SUCCESSFULLY filled in.
+2023-05-30 12:23:35 INFO  Waitings:186 - TOTAL TIME that the INPUT 'PURCHASING ORGANIZATION' EDITABLE web-element was loading: 0.061 seconds.
+2023-05-30 12:23:35 INFO  AddItemTable:2054 - PURCHASING ORGANIZATION input field is SUCCESSFULLY filled in.
+The 'Purchasing Doc. Type' field is auto-filled with the value: UB
+2023-05-30 12:23:37 INFO  AddItemTable:2024 - PURCHASING DOC. TYPE input field is SUCCESSFULLY auto-filled with the value: UB
+2023-05-30 12:23:38 INFO  Waitings:186 - TOTAL TIME that the INPUT 'SLOCK OF STOCK TRANSFER' EDITABLE web-element was loading: 0.04 seconds.
+2023-05-30 12:23:38 INFO  AddItemTable:2002 - SLOCK OF STOCK TRANSFER input field is SUCCESSFULLY filled in.
+The 'Acct. Assignment Cat.' field is auto-filled with the value: 
+The 'Price Date' field is auto-filled with the value: 30.05.2023
+The 'Input Time' field is auto-filled with the value: 00:00:00
+The 'Handling Type' field is auto-filled with the value: 99
+2023-05-30 12:23:41 INFO  AddItemTable:1952 - ACCT. ASSIGNMENT CAT. input field is EMPTY as expected (i.e. no auto-fill).
+2023-05-30 12:23:41 INFO  AddItemTable:1959 - PRICE DATE input field is SUCCESSFULLY auto-filled with the value: 30.05.2023
+2023-05-30 12:23:41 INFO  AddItemTable:1966 - INPUT TIME input field is SUCCESSFULLY auto-filled with the value: 00:00:00
+2023-05-30 12:23:41 INFO  AddItemTable:1973 - HANDLING TYPE input field is SUCCESSFULLY auto-filled with the value: 99
+]]></system-out>
+  </testcase>
+  <testcase name="finalize_ProcessingOfSalesOrder_Testing" classname="org.project.Test_Cases" time="12.894">
+    <system-out><![CDATA[Class of CHECK button: lsButton lsButton--base urInlineMetricTop urNoUserSelect urBtnRadius  lsButton--useintoolbar  lsButton--active  lsButton--focusable  lsButton--up lsButton--design-standard 
+2023-05-30 12:23:42 INFO  PostProcessing:441 - Button 'CHECK' is in ENABLED status.
+2023-05-30 12:23:42 INFO  PostProcessing:415 - The pre-conditioned status before clicking on CHECK button is hidden as expected.
+Document Number: Empty
+Document Status: BChecked
+Document Status first letter: B
+2023-05-30 12:23:44 INFO  LandingPage:1051 - Document Status field is in 'B' status as expected.
+Class of RELEASE button: lsButton lsButton--base urInlineMetricTop urNoUserSelect urBtnRadius  lsButton--useintoolbar  lsButton--active  lsButton--focusable  lsButton--up lsButton--design-standard 
+2023-05-30 12:23:44 INFO  PostProcessing:379 - Button 'RELEASE' is in ENABLED status.
+2023-05-30 12:23:44 INFO  Waitings:269 - TOTAL TIME that Status update after clicking on RELEASE button page was loading: 0.02 seconds.
+2023-05-30 12:23:44 INFO  PostProcessing:353 - The preconditioned status 'PAT document is complete' is displayed as expected before clicking on RELEASE button
+Document Number: Empty
+Document Status: CReleased
+Document Status first letter: C
+2023-05-30 12:23:46 INFO  LandingPage:1056 - Document Status field is in 'C' status as expected.
+Class of SAVE button: lsButton lsButton--base urInlineMetricTop urNoUserSelect urBtnRadius  lsButton--useintoolbar  lsButton--active  lsButton--focusable  lsButton--up lsButton--design-emphasized
+2023-05-30 12:23:46 INFO  PostProcessing:330 - Button 'SAVE' is in ENABLED status.
+2023-05-30 12:23:46 INFO  Waitings:269 - TOTAL TIME that Status update after clicking on SAVE button page was loading: 0.02 seconds.
+2023-05-30 12:23:46 INFO  PostProcessing:304 - The preconditioned status 'PAT document was released' is displayed as expected before clicking on RELEASE button
+Document Number: 12795
+Document Status: CReleased
+Document Status first letter: C
+2023-05-30 12:23:48 INFO  LandingPage:1077 - Document Status field is in 'C' status as expected. Document Number is 12795.
+Document Number: 12795
+Class of PROCESS button: lsButton lsButton--base urInlineMetricTop urNoUserSelect urBtnRadius  lsButton--useintoolbar  lsButton--active  lsButton--focusable  lsButton--up lsButton--design-standard 
+2023-05-30 12:23:48 INFO  PostProcessing:281 - Button 'PROCESS' is in ENABLED status.
+2023-05-30 12:23:48 INFO  Waitings:269 - TOTAL TIME that PROCESS button gets ENABLED page was loading: 0.019 seconds.
+2023-05-30 12:23:48 INFO  PostProcessing:255 - The preconditioned status 'Document '12795' was saved' is displayed as expected before clicking on PROCESS button
+2023-05-30 12:23:52 INFO  Waitings:269 - TOTAL TIME that PROCESSING OPERATION NOTIFICATION page was loading: 3.578 seconds.
+2023-05-30 12:23:54 INFO  Waitings:186 - TOTAL TIME that the DOCUMENT STATUS 'F' web-element was loading: 0.052 seconds.
+Document Number: 12795
+Document Status: FPosted
+Document Status first letter: F
+2023-05-30 12:23:54 INFO  LandingPage:1082 - Document Status field is in 'F' status as expected. Document Number is 12795.
+2023-05-30 12:23:54 INFO  Graphics_Screenshots:48 - COMPLETED DATA COLLATION PAGE window screenshot was made. 
+]]></system-out>
+  </testcase>
+  <testcase name="postprocessing_ComparePostedAndCancelledSalesOrder_Testing" classname="org.project.Test_Cases" time="35.125">
+    <system-out><![CDATA[Class of LOCATOR button: lsButton lsButton--base urInlineMetricTop urNoUserSelect urBtnRadius  lsButton--useintoolbar  lsButton--active  lsButton--focusable  lsButton--up lsButton--design-toggle 
+2023-05-30 12:23:54 INFO  Locator_DocCompare:1269 - Button 'LOCATOR' is in ENABLED status.
+2023-05-30 12:23:54 INFO  Locator_DocCompare:1251 - The 'LOCATOR' button was SUCCESSFULLY clicked on.
+2023-05-30 12:23:55 INFO  Waitings:269 - TOTAL TIME that LOCATOR PANEL page was loading: 0.573 seconds.
+2023-05-30 12:23:56 INFO  Waitings:334 - TOTAL TIME that the PERSONALIZATION POPUP page was loading: 0.006 seconds.
+Number of TR elements on LOCATOR -> SETTINGS popup: 7
+Row's title = Document Status
+2023-05-30 12:24:01 INFO  Locator_DocCompare:906 - The 'Document Status' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-05-30 12:24:01 INFO  Waitings:240 - TOTAL TIME that 'Document Number' WIDTH field page was loading: 0.03 seconds.
+2023-05-30 12:24:01 INFO  Locator_DocCompare:924 - Width for DOCUMENT STATUS input field was SUCCESSFULLY changed.
+The class value for Document Status check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked 
+2023-05-30 12:24:01 INFO  Locator_DocCompare:937 - DOCUMENT STATUS input field was unselected in the FIXED column BY DEFAULT.
+Row's title = Document Number
+2023-05-30 12:24:02 INFO  Locator_DocCompare:959 - The 'Document Number' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-05-30 12:24:02 INFO  Waitings:240 - TOTAL TIME that 'Document Number' WIDTH field page was loading: 0.017 seconds.
+2023-05-30 12:24:03 INFO  Locator_DocCompare:971 - Width for DOCUMENT NUMBER input field was SUCCESSFULLY changed.
+The class value for Document Number check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked--disabled 
+2023-05-30 12:24:03 INFO  Locator_DocCompare:984 - DOCUMENT NUMBER input field was unselected in the FIXED column BY DEFAULT.
+Row's title = Document Status
+2023-05-30 12:24:03 INFO  Locator_DocCompare:906 - The 'Document Status' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-05-30 12:24:03 INFO  Waitings:240 - TOTAL TIME that 'Document Number' WIDTH field page was loading: 0.013 seconds.
+2023-05-30 12:24:04 INFO  Locator_DocCompare:924 - Width for DOCUMENT STATUS input field was SUCCESSFULLY changed.
+The class value for Document Status check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked--disabled 
+2023-05-30 12:24:04 INFO  Locator_DocCompare:937 - DOCUMENT STATUS input field was unselected in the FIXED column BY DEFAULT.
+Row's title = Created on
+2023-05-30 12:24:04 INFO  Locator_DocCompare:1004 - The 'Created on' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-05-30 12:24:04 INFO  Waitings:240 - TOTAL TIME that 'Created on' WIDTH field page was loading: 0.014 seconds.
+2023-05-30 12:24:05 INFO  Locator_DocCompare:1016 - Width for CREATED ON input field was SUCCESSFULLY changed.
+The class value for Created on check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked--disabled 
+2023-05-30 12:24:05 INFO  Locator_DocCompare:1029 - CREATED ON input field was unselected in the FIXED column BY DEFAULT.
+Row's title = Created by
+2023-05-30 12:24:05 INFO  Locator_DocCompare:1050 - The 'Created by' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-05-30 12:24:05 INFO  Waitings:240 - TOTAL TIME that 'Created by' WIDTH field page was loading: 0.013 seconds.
+2023-05-30 12:24:06 INFO  Locator_DocCompare:1062 - Width for CREATED BY input field was SUCCESSFULLY changed.
+The class value for Created by check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked--disabled 
+2023-05-30 12:24:06 INFO  Locator_DocCompare:1075 - CREATED BY input field was unselected in the FIXED column BY DEFAULT.
+Row's title = Changed On
+2023-05-30 12:24:06 INFO  Locator_DocCompare:1096 - The 'Changed On' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-05-30 12:24:06 INFO  Waitings:240 - TOTAL TIME that 'Changed On' WIDTH field page was loading: 0.027 seconds.
+2023-05-30 12:24:07 INFO  Locator_DocCompare:1108 - Width for CHANGED ON input field was SUCCESSFULLY changed.
+The class value for Changed On check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked--disabled 
+2023-05-30 12:24:07 INFO  Locator_DocCompare:1121 - CHANGED ON input field was unselected in the FIXED column BY DEFAULT.
+Row's title = Changed by
+2023-05-30 12:24:07 INFO  Locator_DocCompare:1142 - The 'Changed by' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-05-30 12:24:08 INFO  Waitings:240 - TOTAL TIME that 'Changed by' WIDTH field page was loading: 0.016 seconds.
+2023-05-30 12:24:08 INFO  Locator_DocCompare:1154 - Width for CHANGED BY input field was SUCCESSFULLY changed.
+The class value for Changed by check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked 
+2023-05-30 12:24:08 INFO  Locator_DocCompare:1167 - CHANGED BY input field was unselected in the FIXED column BY DEFAULT.
+2023-05-30 12:24:08 INFO  LandingPage:1248 - The 'OK' button (on 'PERSONALIZATION' popup) was clicked to save Default Settings.
+2023-05-30 12:24:10 INFO  Waitings:119 - TOTAL TIME that the DATA COLLATION PAGE after closing PERSONALIZATION popup page was loading: 1.103 seconds.
+DOCUMENT NUMBER dropdown value: Changed At
+2023-05-30 12:24:12 INFO  Waitings:269 - TOTAL TIME that DOCUMENT NUMBER DROPDOWN page was loading: 0.032 seconds.
+2023-05-30 12:24:12 INFO  Locator_DocCompare:817 - The 'DOCUMENT NUMBER' input has been changed to 'DOCUMENT NUMBER' value.
+2023-05-30 12:24:12 INFO  Waitings:334 - TOTAL TIME that the DOCUMENT CONDITION dropdown on LOCATOR pane page was loading: 0.007 seconds.
+DOCUMENT CONDITION dropdown value: equal to
+2023-05-30 12:24:15 INFO  Locator_DocCompare:853 - The 'DOCUMENT CONDITION' input has 'EQUAL TO' value selected by default as expected.
+Element's X coordinate Is 379 pixels
+Element's Y coordinate Is 97 pixels
+Element's width Is 268 pixels
+Element's height Is 24 pixels
+LOCATOR panel's width Is 765 pixels
+LOCATOR panel's height Is 727 pixels
+THE DOC NUMBER IS: 12795
+THE DOCUMENT FROM field was clicked SUCCESSFULLY
+2023-05-30 12:24:17 INFO  Locator_DocCompare:873 - DOCUMENT NUMBER input field is SUCCESSFULLY filled in with '12795'.
+2023-05-30 12:24:20 INFO  Locator_DocCompare:735 - The 'SEARCH' button was SUCCESSFULLY clicked on.
+2023-05-30 12:24:21 INFO  Waitings:269 - TOTAL TIME that RESULTS LIST TABLE page was loading: 0.523 seconds.
+Number of non-empty rows in the SEARCH RESULTS table: 1
+Number of columns in the SEARCH RESULTS table: 7
+Counter of Needed columns in the SEARCH RESULTS table: 1
+SPAN element Text in the SEARCH RESULTS table: Document Status
+		
+ 
+2023-05-30 12:24:22 INFO  Locator_DocCompare:666 - DOCUMNET STATUS in row #1 is equal to: Posted
+Counter of Needed columns in the SEARCH RESULTS table: 2
+SPAN element Text in the SEARCH RESULTS table: Document Number
+		
+ 
+2023-05-30 12:24:22 INFO  Locator_DocCompare:681 - DOCUMNET NUMBER in row #1 is equal to: 12795
+2023-05-30 12:24:23 INFO  Locator_DocCompare:491 - DOCUMNET STATUS is correctly correlated with DOCUMENT NUMBER in row #1: POSTED and 12795
+2023-05-30 12:24:24 INFO  Graphics_Screenshots:48 - LOCATOR PANEL WITH DOCUMENT STATUS window screenshot was made. 
+Class of LOCATOR button: lsButton lsButton--base urInlineMetricTop urNoUserSelect urBtnRadius  lsButton--useintoolbar  lsButton--active  lsButton--focusable  lsButton--down lsButton--design-toggle 
+2023-05-30 12:24:26 INFO  Locator_DocCompare:1269 - Button 'LOCATOR' is in ENABLED status.
+2023-05-30 12:24:27 INFO  Locator_DocCompare:595 - The 'LOCATOR' button was SUCCESSFULLY clicked on.
+]]></system-out>
+  </testcase>
+  <testcase name="postprocessing_Read_StockTransportOrderNumber_Testing" classname="org.project.Test_Cases" time="3.332">
+    <system-out><![CDATA[FLOW PANEL 'innerText' property: Level 0 Collapsed
+DOCUMENT FLOW toggler was clicked.
+2023-05-30 12:24:32 INFO  Waitings:119 - TOTAL TIME that the DOCUMENT FLOW panel page was loading: 2.126 seconds.
+2023-05-30 12:24:33 INFO  LandingPage:900 - Retrieved 'STOCK TRANSPORT ORDER' number = 4500008715
+2023-05-30 12:24:33 INFO  LandingPage:916 - 'Stock Transport Order' number was successfully retrieved from the 2nd row of the DOCUMENT FLOW table. It is equal to '4500008715' 
+]]></system-out>
+  </testcase>
+  <testcase name="add_NewItemRowForNewDocument_Testing[STU](1)" classname="org.project.Test_Cases" time="1.742">
+    <system-out><![CDATA[Class text of NEW button: lsButton lsButton--base urInlineMetricTop urNoUserSelect urBtnRadius  lsButton--useintoolbar  lsButton--active  lsButton--focusable  lsButton--up lsButton--design-standard 
+2023-05-30 12:24:33 INFO  LandingPage:1164 - Button 'NEW' is in ENABLED status.
+2023-05-30 12:24:33 INFO  LandingPage:1140 - 'NEW' button was clicked on the main toolbar.
+2023-05-30 12:24:33 INFO  Waitings:269 - TOTAL TIME that Editable HEADER DATA Table page was loading: 0.4 seconds.
+Class text of NEW button: lsButton lsButton--base urInlineMetricTop urNoUserSelect urBtnRadius  lsButton--useintoolbar  lsButton--up lsButton--design-standard  lsButton--disabled
+2023-05-30 12:24:33 WARN  LandingPage:1166 - Button 'NEW' is in DISABLED status.
+2023-05-30 12:24:34 INFO  Graphics_Screenshots:48 - STU EMPTY PAGE window screenshot was made. 
+Class of ADD ITEM button: lsButton lsButton--base urInlineMetricTop urNoUserSelect urBtnRadius  lsButton--onlyImage  lsButton--useintoolbar  lsButton--toolbar-image  lsButton--active  lsButton--focusable  urBtnImgBgColor  lsButton--up lsButton--design-standard 
+2023-05-30 12:24:34 INFO  LandingPage:1118 - Button 'ADD ITEM' is in ENABLED status.
+CLASS for the FIRST ROW of ADD ITEM table is: presentation
+2023-05-30 12:24:34 WARN  LandingPage:1213 - The 'Add Item' table is EMPTY.
+2023-05-30 12:24:34 INFO  Test_Cases:544 - 'ADD ITEM' button was clicked because the 'ITEM DATA' table has NO editable rows yet.
+2023-05-30 12:24:34 INFO  AddItemTable:2851 - Browser window height is 873 pixels
+2023-05-30 12:24:34 INFO  AddItemTable:2863 - ADD ITEM Table width is 1862 pixels
+2023-05-30 12:24:34 INFO  AddItemTable:2871 - MATERIAL element's Position from left side is: 886 pixels.
+2023-05-30 12:24:34 INFO  AddItemTable:2875 - MATERIAL element's Position from top is: 331 pixels.
+2023-05-30 12:24:34 INFO  AddItemTable:2879 - MATERIAL element width is 62 pixels
+2023-05-30 12:24:34 INFO  AddItemTable:2883 - MATERIAL element height Is 32 pixels
+2023-05-30 12:24:34 INFO  AddItemTable:2887 - MATERIAL end coordinate of Web element on X axis is: 948
+2023-05-30 12:24:34 INFO  AddItemTable:2891 - MATERIAL end coordinate of Web element on Y axis is: 363
+2023-05-30 12:24:34 INFO  AddItemTable:2950 - Material Element is completelly visible in the view port.
+2023-05-30 12:24:35 INFO  Waitings:240 - TOTAL TIME that Editable first row of ADD ITEM Table - 'LEFT part' page was loading: 0.387 seconds.
+2023-05-30 12:24:35 INFO  Waitings:240 - TOTAL TIME that Editable first row of ADD ITEM Table - 'RIGHT part' page was loading: 0.037 seconds.
+]]></system-out>
+  </testcase>
+  <testcase name="fill_in_NewItemFieldsForNewDocument_Testing" classname="org.project.Test_Cases" time="2.118">
+    <system-out><![CDATA[Document Number: Empty
+Document Status: AIn Processing
+Document Status first letter: A
+2023-05-30 12:24:37 INFO  LandingPage:1046 - Document Status field is in 'A' status as expected.
+]]></system-out>
+  </testcase>
+  <testcase name="fill_in_ItemCategoryForNewDocument_Testing" classname="org.project.Test_Cases" time="13.568">
+    <system-out><![CDATA[Number of columns in the LEFT part: 9
+Counter of Needed columns in the LEFT part of ADD ITEM table: 0
+Counter of Needed columns in the LEFT part of ADD ITEM table: 0
+SPAN element Text in the LEFT part: Item Status
+	
+ 
+Counter of Needed columns in the LEFT part of ADD ITEM table: 0
+SPAN element Text in the LEFT part: Transfer Posting
+	
+ 
+Counter of Needed columns in the LEFT part of ADD ITEM table: 0
+SPAN element Text in the LEFT part: Item Number
+		
+ 
+Counter of Needed columns in the LEFT part of ADD ITEM table: 0
+SPAN element Text in the LEFT part: Sequence Number of the Item
+	
+ 
+Counter of Needed columns in the LEFT part of ADD ITEM table: 0
+SPAN element Text in the LEFT part: Posting Sequence
+	
+		
+ 
+Counter of Needed columns in the LEFT part of ADD ITEM table: 0
+SPAN element Text in the LEFT part: Item Category
+	
+ 
+2023-05-30 12:24:48 INFO  Waitings:477 - TOTAL TIME that the RIGHT PART of ADD ITEM TABLE was observed for changing its status: 1.072 seconds.
+]]></system-out>
+  </testcase>
+  <testcase name="fill_in_RightPartOfTableForOtherDocument_Testing[OGSD_200, 100, GP01, G1L1, UNTAX, 99, Gasoil, L15](1)" classname="org.project.Test_Cases" time="3.939">
+    <system-out><![CDATA[Number of columns in the RIGHT part: 21
+Counter of Needed columns in the RIGHT part of ADD ITEM table: 1
+SPAN element Text in the RIGHT part: Reference Document
+	
+ 
+2023-05-30 12:24:50 INFO  AddItemTable:2851 - Browser window height is 873 pixels
+2023-05-30 12:24:50 INFO  AddItemTable:2863 - ADD ITEM Table width is 1862 pixels
+2023-05-30 12:24:50 INFO  AddItemTable:2871 - REFERENCE DOCUMENT element's Position from left side is: 662 pixels.
+2023-05-30 12:24:50 INFO  AddItemTable:2875 - REFERENCE DOCUMENT element's Position from top is: 331 pixels.
+2023-05-30 12:24:50 INFO  AddItemTable:2879 - REFERENCE DOCUMENT element width is 125 pixels
+2023-05-30 12:24:51 INFO  AddItemTable:2883 - REFERENCE DOCUMENT element height Is 32 pixels
+2023-05-30 12:24:51 INFO  AddItemTable:2887 - REFERENCE DOCUMENT end coordinate of Web element on X axis is: 787
+2023-05-30 12:24:51 INFO  AddItemTable:2891 - REFERENCE DOCUMENT end coordinate of Web element on Y axis is: 363
+2023-05-30 12:24:51 INFO  AddItemTable:2950 - Reference Document Element is completelly visible in the view port.
+2023-05-30 12:24:51 INFO  AddItemTable:1891 - REFERENCE DOCUMENT input field is SUCCESSFULLY filled in.
+2023-05-30 12:24:52 INFO  Waitings:269 - TOTAL TIME that PROCESSING IMPORT FROM PURCHASE ORDER '4500008715' page was loading: 0.761 seconds.
+Number of columns in the RIGHT part: 21
+Counter of Needed columns: 1
+SPAN element Text in the RIGHT part: Reference Document
+	
+ 
+Counter of Needed columns: 1
+SPAN element Text in the RIGHT part: Reference Item
+	
+ 
+2023-05-30 12:24:53 INFO  AddItemTable:2851 - Browser window height is 873 pixels
+2023-05-30 12:24:53 INFO  AddItemTable:2863 - ADD ITEM Table width is 1862 pixels
+2023-05-30 12:24:53 INFO  AddItemTable:2871 - REFERENCE ITEM element's Position from left side is: 789 pixels.
+2023-05-30 12:24:53 INFO  AddItemTable:2875 - REFERENCE ITEM element's Position from top is: 299 pixels.
+2023-05-30 12:24:53 INFO  AddItemTable:2879 - REFERENCE ITEM element width is 95 pixels
+2023-05-30 12:24:53 INFO  AddItemTable:2883 - REFERENCE ITEM element height Is 32 pixels
+2023-05-30 12:24:53 INFO  AddItemTable:2887 - REFERENCE ITEM end coordinate of Web element on X axis is: 884
+2023-05-30 12:24:53 INFO  AddItemTable:2891 - REFERENCE ITEM end coordinate of Web element on Y axis is: 331
+2023-05-30 12:24:53 INFO  AddItemTable:2950 - Reference Item Element is completelly visible in the view port.
+2023-05-30 12:24:53 WARN  AddItemTable:1570 - REFERENCE ITEM input field is AUTOFILLED with the value '000010'. EXPECTED value should be ''!
+Counter of Needed columns: 2
+SPAN element Text in the RIGHT part: Material
+	
+ 
+2023-05-30 12:24:53 INFO  AddItemTable:2851 - Browser window height is 873 pixels
+2023-05-30 12:24:53 INFO  AddItemTable:2863 - ADD ITEM Table width is 1862 pixels
+2023-05-30 12:24:53 INFO  AddItemTable:2871 - MATERIAL element's Position from left side is: 886 pixels.
+2023-05-30 12:24:53 INFO  AddItemTable:2875 - MATERIAL element's Position from top is: 299 pixels.
+2023-05-30 12:24:53 INFO  AddItemTable:2879 - MATERIAL element width is 62 pixels
+2023-05-30 12:24:53 INFO  AddItemTable:2883 - MATERIAL element height Is 32 pixels
+2023-05-30 12:24:53 INFO  AddItemTable:2887 - MATERIAL end coordinate of Web element on X axis is: 948
+2023-05-30 12:24:53 INFO  AddItemTable:2891 - MATERIAL end coordinate of Web element on Y axis is: 331
+2023-05-30 12:24:53 INFO  AddItemTable:2950 - Material Element is completelly visible in the view port.
+2023-05-30 12:24:53 WARN  AddItemTable:1600 - MATERIAL input field is AUTOFILLED with the value 'OGSD_200'. EXPECTED value should be ''!
+Counter of Needed columns: 3
+SPAN element Text in the RIGHT part: Material description
+	
+ 
+2023-05-30 12:24:53 INFO  AddItemTable:2851 - Browser window height is 873 pixels
+2023-05-30 12:24:53 INFO  AddItemTable:2863 - ADD ITEM Table width is 1862 pixels
+2023-05-30 12:24:53 INFO  AddItemTable:2871 - MATERIAL DESCRIPTION element's Position from left side is: 950 pixels.
+2023-05-30 12:24:53 INFO  AddItemTable:2875 - MATERIAL DESCRIPTION element's Position from top is: 299 pixels.
+2023-05-30 12:24:53 INFO  AddItemTable:2879 - MATERIAL DESCRIPTION element width is 124 pixels
+2023-05-30 12:24:53 INFO  AddItemTable:2883 - MATERIAL DESCRIPTION element height Is 32 pixels
+2023-05-30 12:24:53 INFO  AddItemTable:2887 - MATERIAL DESCRIPTION end coordinate of Web element on X axis is: 1074
+2023-05-30 12:24:53 INFO  AddItemTable:2891 - MATERIAL DESCRIPTION end coordinate of Web element on Y axis is: 331
+2023-05-30 12:24:53 INFO  AddItemTable:2950 - Material description Element is completelly visible in the view port.
+2023-05-30 12:24:53 WARN  AddItemTable:1630 - MATERIAL DESCRIPTION input field is AUTOFILLED with the value 'Heating Oil'. EXPECTED value should be 'Gasoil'!
+Counter of Needed columns: 4
+SPAN element Text in the RIGHT part: Quantity
+	
+ 
+2023-05-30 12:24:53 INFO  AddItemTable:2851 - Browser window height is 873 pixels
+2023-05-30 12:24:53 INFO  AddItemTable:2863 - ADD ITEM Table width is 1862 pixels
+2023-05-30 12:24:53 INFO  AddItemTable:2871 - QUANTITY element's Position from left side is: 1076 pixels.
+2023-05-30 12:24:53 INFO  AddItemTable:2875 - QUANTITY element's Position from top is: 299 pixels.
+2023-05-30 12:24:53 INFO  AddItemTable:2879 - QUANTITY element width is 72 pixels
+2023-05-30 12:24:53 INFO  AddItemTable:2883 - QUANTITY element height Is 32 pixels
+2023-05-30 12:24:53 INFO  AddItemTable:2887 - QUANTITY end coordinate of Web element on X axis is: 1148
+2023-05-30 12:24:53 INFO  AddItemTable:2891 - QUANTITY end coordinate of Web element on Y axis is: 331
+2023-05-30 12:24:53 INFO  AddItemTable:2950 - Quantity Element is completelly visible in the view port.
+2023-05-30 12:24:53 INFO  AddItemTable:1657 - QUANTITY input field is AUTOFILLED with the value '100,000'.
+Counter of Needed columns: 5
+SPAN element Text in the RIGHT part: Base Unit of Measure
+	
+ 
+2023-05-30 12:24:53 INFO  AddItemTable:2851 - Browser window height is 873 pixels
+2023-05-30 12:24:54 INFO  AddItemTable:2863 - ADD ITEM Table width is 1862 pixels
+2023-05-30 12:24:54 INFO  AddItemTable:2871 - BASE UNIT OF MEASURE element's Position from left side is: 1150 pixels.
+2023-05-30 12:24:54 INFO  AddItemTable:2875 - BASE UNIT OF MEASURE element's Position from top is: 299 pixels.
+2023-05-30 12:24:54 INFO  AddItemTable:2879 - BASE UNIT OF MEASURE element width is 126 pixels
+2023-05-30 12:24:54 INFO  AddItemTable:2883 - BASE UNIT OF MEASURE element height Is 32 pixels
+2023-05-30 12:24:54 INFO  AddItemTable:2887 - BASE UNIT OF MEASURE end coordinate of Web element on X axis is: 1276
+2023-05-30 12:24:54 INFO  AddItemTable:2891 - BASE UNIT OF MEASURE end coordinate of Web element on Y axis is: 331
+2023-05-30 12:24:54 INFO  AddItemTable:2950 - Base Unit of Measure Element is completelly visible in the view port.
+2023-05-30 12:24:54 INFO  AddItemTable:1686 - BASE UNIT OF MEASURE input field is AUTOFILLED with the value 'L15'.
+Counter of Needed columns: 6
+SPAN element Text in the RIGHT part: Plant
+	
+ 
+2023-05-30 12:24:54 INFO  AddItemTable:2851 - Browser window height is 873 pixels
+2023-05-30 12:24:54 INFO  AddItemTable:2863 - ADD ITEM Table width is 1862 pixels
+2023-05-30 12:24:54 INFO  AddItemTable:2871 - PLANT element's Position from left side is: 1278 pixels.
+2023-05-30 12:24:54 INFO  AddItemTable:2875 - PLANT element's Position from top is: 299 pixels.
+2023-05-30 12:24:54 INFO  AddItemTable:2879 - PLANT element width is 60 pixels
+2023-05-30 12:24:54 INFO  AddItemTable:2883 - PLANT element height Is 32 pixels
+2023-05-30 12:24:54 INFO  AddItemTable:2887 - PLANT end coordinate of Web element on X axis is: 1338
+2023-05-30 12:24:54 INFO  AddItemTable:2891 - PLANT end coordinate of Web element on Y axis is: 331
+2023-05-30 12:24:54 INFO  AddItemTable:2950 - Plant Element is completelly visible in the view port.
+2023-05-30 12:24:54 INFO  AddItemTable:1715 - PLANT input field is AUTOFILLED with the value 'GP01'.
+Counter of Needed columns: 7
+SPAN element Text in the RIGHT part: Storage location
+	
+ 
+2023-05-30 12:24:54 INFO  AddItemTable:2851 - Browser window height is 873 pixels
+2023-05-30 12:24:54 INFO  AddItemTable:2863 - ADD ITEM Table width is 1862 pixels
+2023-05-30 12:24:54 INFO  AddItemTable:2871 - STORAGE LOCATION element's Position from left side is: 1340 pixels.
+2023-05-30 12:24:54 INFO  AddItemTable:2875 - STORAGE LOCATION element's Position from top is: 299 pixels.
+2023-05-30 12:24:54 INFO  AddItemTable:2879 - STORAGE LOCATION element width is 104 pixels
+2023-05-30 12:24:54 INFO  AddItemTable:2883 - STORAGE LOCATION element height Is 32 pixels
+2023-05-30 12:24:54 INFO  AddItemTable:2887 - STORAGE LOCATION end coordinate of Web element on X axis is: 1444
+2023-05-30 12:24:54 INFO  AddItemTable:2891 - STORAGE LOCATION end coordinate of Web element on Y axis is: 331
+2023-05-30 12:24:54 INFO  AddItemTable:2950 - Storage location Element is completelly visible in the view port.
+2023-05-30 12:24:54 INFO  AddItemTable:1744 - STORAGE LOCATION input field is AUTOFILLED with the value 'G1L1'.
+Counter of Needed columns: 8
+SPAN element Text in the RIGHT part: Valuation Type
+	
+ 
+2023-05-30 12:24:54 INFO  AddItemTable:2851 - Browser window height is 873 pixels
+2023-05-30 12:24:54 INFO  AddItemTable:2863 - ADD ITEM Table width is 1862 pixels
+2023-05-30 12:24:54 INFO  AddItemTable:2871 - VALUATION TYPE element's Position from left side is: 1446 pixels.
+2023-05-30 12:24:54 INFO  AddItemTable:2875 - VALUATION TYPE element's Position from top is: 299 pixels.
+2023-05-30 12:24:54 INFO  AddItemTable:2879 - VALUATION TYPE element width is 93 pixels
+2023-05-30 12:24:54 INFO  AddItemTable:2883 - VALUATION TYPE element height Is 32 pixels
+2023-05-30 12:24:54 INFO  AddItemTable:2887 - VALUATION TYPE end coordinate of Web element on X axis is: 1539
+2023-05-30 12:24:54 INFO  AddItemTable:2891 - VALUATION TYPE end coordinate of Web element on Y axis is: 331
+2023-05-30 12:24:54 INFO  AddItemTable:2950 - Valuation Type Element is completelly visible in the view port.
+2023-05-30 12:24:54 INFO  AddItemTable:1773 - VALUATION TYPE input field is AUTOFILLED with the value 'UNTAX'.
+]]></system-out>
+  </testcase>
+  <testcase name="finalize_ProcessingOfSalesOrderForOtherDocument_Testing" classname="org.project.Test_Cases" time="10.545">
+    <system-out><![CDATA[Class of CHECK button: lsButton lsButton--base urInlineMetricTop urNoUserSelect urBtnRadius  lsButton--useintoolbar  lsButton--active  lsButton--focusable  lsButton--up lsButton--design-standard 
+2023-05-30 12:24:54 INFO  PostProcessing:441 - Button 'CHECK' is in ENABLED status.
+2023-05-30 12:24:54 INFO  PostProcessing:415 - The pre-conditioned status before clicking on CHECK button is hidden as expected.
+Document Number: Empty
+Document Status: BChecked
+Document Status first letter: B
+2023-05-30 12:24:56 INFO  LandingPage:1051 - Document Status field is in 'B' status as expected.
+Class of RELEASE button: lsButton lsButton--base urInlineMetricTop urNoUserSelect urBtnRadius  lsButton--useintoolbar  lsButton--active  lsButton--focusable  lsButton--up lsButton--design-standard 
+2023-05-30 12:24:56 INFO  PostProcessing:379 - Button 'RELEASE' is in ENABLED status.
+2023-05-30 12:24:56 INFO  Waitings:269 - TOTAL TIME that Status update after clicking on RELEASE button page was loading: 0.02 seconds.
+2023-05-30 12:24:56 INFO  PostProcessing:353 - The preconditioned status 'PAT document is complete' is displayed as expected before clicking on RELEASE button
+Document Number: Empty
+Document Status: CReleased
+Document Status first letter: C
+2023-05-30 12:24:59 INFO  LandingPage:1056 - Document Status field is in 'C' status as expected.
+Class of SAVE button: lsButton lsButton--base urInlineMetricTop urNoUserSelect urBtnRadius  lsButton--useintoolbar  lsButton--active  lsButton--focusable  lsButton--up lsButton--design-emphasized
+2023-05-30 12:24:59 INFO  PostProcessing:330 - Button 'SAVE' is in ENABLED status.
+2023-05-30 12:24:59 INFO  Waitings:269 - TOTAL TIME that Status update after clicking on SAVE button page was loading: 0.021 seconds.
+2023-05-30 12:24:59 INFO  PostProcessing:304 - The preconditioned status 'PAT document was released' is displayed as expected before clicking on RELEASE button
+Document Number: 12796
+Document Status: CReleased
+Document Status first letter: C
+2023-05-30 12:25:01 INFO  LandingPage:1077 - Document Status field is in 'C' status as expected. Document Number is 12796.
+Document Number: 12796
+Class of PROCESS button: lsButton lsButton--base urInlineMetricTop urNoUserSelect urBtnRadius  lsButton--useintoolbar  lsButton--active  lsButton--focusable  lsButton--up lsButton--design-standard 
+2023-05-30 12:25:01 INFO  PostProcessing:281 - Button 'PROCESS' is in ENABLED status.
+2023-05-30 12:25:01 INFO  Waitings:269 - TOTAL TIME that PROCESS button gets ENABLED page was loading: 0.02 seconds.
+2023-05-30 12:25:01 INFO  PostProcessing:255 - The preconditioned status 'Document '12796' was saved' is displayed as expected before clicking on PROCESS button
+2023-05-30 12:25:02 INFO  Waitings:269 - TOTAL TIME that PROCESSING OPERATION NOTIFICATION page was loading: 1.325 seconds.
+Document Number: 12796
+Document Status: FPosted
+Document Status first letter: F
+2023-05-30 12:25:04 INFO  LandingPage:1082 - Document Status field is in 'F' status as expected. Document Number is 12796.
+2023-05-30 12:25:05 INFO  Graphics_Screenshots:48 - COMPLETED POSTPROCESSING DATA COLLATION PAGE window screenshot was made. 
+]]></system-out>
+  </testcase>
+  <testcase name="postprocessing_ComparePostedAndCancelledSalesOrderForOtherDocument_Testing" classname="org.project.Test_Cases" time="18.987">
+    <system-out><![CDATA[Class of LOCATOR button: lsButton lsButton--base urInlineMetricTop urNoUserSelect urBtnRadius  lsButton--useintoolbar  lsButton--active  lsButton--focusable  lsButton--up lsButton--design-toggle 
+2023-05-30 12:25:05 INFO  Locator_DocCompare:1269 - Button 'LOCATOR' is in ENABLED status.
+2023-05-30 12:25:05 INFO  Locator_DocCompare:1251 - The 'LOCATOR' button was SUCCESSFULLY clicked on.
+2023-05-30 12:25:05 INFO  Waitings:269 - TOTAL TIME that LOCATOR PANEL page was loading: 0.557 seconds.
+DOCUMENT NUMBER dropdown value: Document Number
+2023-05-30 12:25:06 INFO  Locator_DocCompare:820 - The 'DOCUMENT NUMBER' input has 'Document Number' value selected by default as expected.
+2023-05-30 12:25:06 INFO  Waitings:334 - TOTAL TIME that the DOCUMENT CONDITION dropdown on LOCATOR pane page was loading: 0.014 seconds.
+DOCUMENT CONDITION dropdown value: equal to
+2023-05-30 12:25:10 INFO  Locator_DocCompare:853 - The 'DOCUMENT CONDITION' input has 'EQUAL TO' value selected by default as expected.
+Element's X coordinate Is 379 pixels
+Element's Y coordinate Is 97 pixels
+Element's width Is 268 pixels
+Element's height Is 24 pixels
+LOCATOR panel's width Is 765 pixels
+LOCATOR panel's height Is 727 pixels
+THE DOC NUMBER IS: 12796
+THE DOCUMENT FROM field was clicked SUCCESSFULLY
+2023-05-30 12:25:12 INFO  Locator_DocCompare:873 - DOCUMENT NUMBER input field is SUCCESSFULLY filled in with '12796'.
+2023-05-30 12:25:15 INFO  Locator_DocCompare:735 - The 'SEARCH' button was SUCCESSFULLY clicked on.
+2023-05-30 12:25:15 INFO  Waitings:269 - TOTAL TIME that RESULTS LIST TABLE page was loading: 0.02 seconds.
+Number of non-empty rows in the SEARCH RESULTS table: 1
+Number of columns in the SEARCH RESULTS table: 7
+Counter of Needed columns in the SEARCH RESULTS table: 1
+SPAN element Text in the SEARCH RESULTS table: Document Status
+		
+ 
+2023-05-30 12:25:16 INFO  Locator_DocCompare:666 - DOCUMNET STATUS in row #1 is equal to: Posted
+Counter of Needed columns in the SEARCH RESULTS table: 2
+SPAN element Text in the SEARCH RESULTS table: Document Number
+		
+ 
+2023-05-30 12:25:16 INFO  Locator_DocCompare:681 - DOCUMNET NUMBER in row #1 is equal to: 12796
+2023-05-30 12:25:17 INFO  Locator_DocCompare:491 - DOCUMNET STATUS is correctly correlated with DOCUMENT NUMBER in row #1: POSTED and 12796
+2023-05-30 12:25:19 INFO  Graphics_Screenshots:48 - LOCATOR POSTPROCESSING PANEL WITH DOCUMENT STATUS window screenshot was made. 
+Class of LOCATOR button: lsButton lsButton--base urInlineMetricTop urNoUserSelect urBtnRadius  lsButton--useintoolbar  lsButton--active  lsButton--focusable  lsButton--down lsButton--design-toggle 
+2023-05-30 12:25:21 INFO  Locator_DocCompare:1269 - Button 'LOCATOR' is in ENABLED status.
+2023-05-30 12:25:21 INFO  Locator_DocCompare:595 - The 'LOCATOR' button was SUCCESSFULLY clicked on.
+]]></system-out>
+  </testcase>
+  <testcase name="postprocessing_ReverseSalesOrder_Testing[XSTU](1)" classname="org.project.Test_Cases" time="6.937">
+    <system-out><![CDATA[Class of REVERSE button: lsButton lsButton--base urInlineMetricTop urNoUserSelect urBtnRadius  lsButton--useintoolbar  lsButton--active  lsButton--focusable  lsButton--up lsButton--design-standard 
+2023-05-30 12:25:24 INFO  PostProcessing:232 - Button 'REVERSE' is in ENABLED status.
+2023-05-30 12:25:24 INFO  Waitings:477 - TOTAL TIME that the REVERSE button gets ENABLED was observed for changing its status: 0.029 seconds.
+Number of child elements: 4
+2023-05-30 12:25:26 INFO  Waitings:218 - TOTAL TIME that the WARNING POPUP ON REVERSE ACTION page was loading: 0.011 seconds.
+The WARNING iFRame has the DISPLAY status as: BLOCK
+2023-05-30 12:25:27 INFO  LandingPage:872 - 'OK' button was SUCCESSFULLY clicked on WARNING popup.
+2023-05-30 12:25:28 INFO  Waitings:154 - TOTAL TIME that the WARNING POPUP web-element was loading: 1.092 seconds.
+2023-05-30 12:25:28 INFO  Waitings:334 - TOTAL TIME that the WARNING POPUP page was loading: 0.016 seconds.
+Reversed Document Number: 12797
+DOC_REVERSED # - 1 = 12796
+ORG Document Number: 12796
+2023-05-30 12:25:30 INFO  LandingPage:792 - Reversed Document Number is bigger by 1 than the original document number as expected. Reversed Document Number is 12797. Original Document Number is 12796.
+Document Status: CReleased
+Reversed Document Number: 12797
+2023-05-30 12:25:31 INFO  Graphics_Screenshots:48 - REVERSED DOCUMENT PAGE window screenshot was made. 
+]]></system-out>
+  </testcase>
+  <testcase name="postprocessing_RePostingCancelledSalesOrder_Testing" classname="org.project.Test_Cases" time="35.736">
+    <system-out><![CDATA[Reversed Document Number: 12797
+DOC_REVERSED # - 1 = 12796
+ORG Document Number: 12796
+2023-05-30 12:25:31 INFO  LandingPage:792 - Reversed Document Number is bigger by 1 than the original document number as expected. Reversed Document Number is 12797. Original Document Number is 12796.
+Document Status: CReleased
+2023-05-30 12:25:31 INFO  Locator_DocCompare:1251 - The 'LOCATOR' button was SUCCESSFULLY clicked on.
+2023-05-30 12:25:31 INFO  Waitings:269 - TOTAL TIME that LOCATOR PANEL page was loading: 0.588 seconds.
+DOCUMENT NUMBER dropdown value: Document Number
+2023-05-30 12:25:32 INFO  Locator_DocCompare:531 - The 'DOCUMENT NUMBER' input has 'Document Number' value selected by default as expected.
+2023-05-30 12:25:32 INFO  Waitings:334 - TOTAL TIME that the DOCUMENT CONDITION dropdown on LOCATOR pane page was loading: 0.013 seconds.
+DOCUMENT CONDITION dropdown value: equal to
+2023-05-30 12:25:36 INFO  Locator_DocCompare:562 - The 'DOCUMENT CONDITION' input has 'EQUAL TO' value selected by default as expected.
+2023-05-30 12:25:36 INFO  Locator_DocCompare:579 - DOCUMENT NUMBER input field is SUCCESSFULLY filled in with '12797'.
+2023-05-30 12:25:37 INFO  Locator_DocCompare:735 - The 'SEARCH' button was SUCCESSFULLY clicked on.
+2023-05-30 12:25:37 INFO  Waitings:269 - TOTAL TIME that RESULTS LIST TABLE page was loading: 0.012 seconds.
+2023-05-30 12:25:48 INFO  Locator_DocSearch:58 - The FIRST ROW in SEARCH RESULTS was SUCCESSFULLY clicked on.
+2023-05-30 12:25:48 INFO  Waitings:72 - TOTAL TIME that the DOCUMENT's STATUS ICON web-element was loading: 0.018 seconds.
+2023-05-30 12:25:51 INFO  Waitings:186 - TOTAL TIME that the UPDATED 'DATA COLLATION' page after clicking on the result in LOCATOR panel web-element was loading: 0.053 seconds.
+2023-05-30 12:25:53 INFO  Locator_DocCompare:595 - The 'LOCATOR' button was SUCCESSFULLY clicked on.
+2023-05-30 12:25:55 INFO  Waitings:477 - TOTAL TIME that the PROCESS button gets ENABLED was observed for changing its status: 0.052 seconds.
+2023-05-30 12:25:57 INFO  Waitings:269 - TOTAL TIME that PROCESSING OPERATION NOTIFICATION page was loading: 1.545 seconds.
+2023-05-30 12:25:57 INFO  Waitings:269 - TOTAL TIME that DOCUMENT STATUS 'F' page was loading: 0.084 seconds.
+Document Number: 12797
+Document Status: FPosted
+Document Status first letter: F
+2023-05-30 12:25:58 INFO  LandingPage:577 - Document Status field is in 'F' status as expected. Document Number is 12797.
+DOC_NUM after clicking PROCESS on REVERSED Doc = 12797
+2023-05-30 12:25:58 INFO  Graphics_Screenshots:48 - REPROCESSED DOCUMENT PAGE window screenshot was made. 
+DocNUM of the very 1st document (STN): 12795
+DocNUM of the 2nd document (STU): 12796
+]]></system-out>
+  </testcase>
+</testsuite>
